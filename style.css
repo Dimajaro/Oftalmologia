@@ -1,0 +1,43 @@
+.titulo{
+    border-bottom: 3px solid black !important;
+    font-size: 15px !important;
+    text-align: left !important;
+    padding: 0px !important;
+}
+
+
+.subt{
+    text-align: center !important;
+}
+
+
+.mainDiv{
+    margin-bottom: 30px !important;
+}
+.inDiv{
+    margin-bottom: 10px !important;
+}
+#boxDiv{
+    border: 1px solid black !important;
+}
+.sinpadding{
+    padding: 0px !important;
+    text-align: center !important;
+}
+.sinpaddingizquierdo{
+    padding-left: 0px !important;
+}
+.sinpaddingderecho{
+    padding-right: 0px !important;
+}
+.minpaddingizquierdo{
+    padding-left: 10px !important;
+}
+.sinmargen{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.conmargen{
+    margin-bottom: 10px !important;
+}
