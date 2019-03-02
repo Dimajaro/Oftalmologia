@@ -70,3 +70,7 @@
 .classtable thead {
     width: calc( 100% - 1em )
 }
+
+.classtable td{
+    width: 100%;
+}
