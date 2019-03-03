@@ -59,7 +59,7 @@
 }*/
 .classtable tbody {
     display:block;
-    height:1150px;
+    height:700px;
     overflow:auto;
 }
 .classtable thead, .classtable tbody tr {
