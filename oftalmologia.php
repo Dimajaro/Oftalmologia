@@ -495,10 +495,9 @@
 
 
                             <tbody>
+                                <tr id="hora900">
 
-                                <tr>
-
-                                    <td>9:00</td>
+                                    <td >9:00</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -510,91 +509,192 @@
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
-                                        <button class="btn btn-danger btn-sm">
+                                        <button class="btn btn-danger btn-sm borrar" onclick="eliminarAgenda(this)">
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora910">
                                     <td>9:10</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora920">
                                     <td>9:20</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm borrar" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora930">
                                     <td>9:30</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora940">
                                     <td>9:40</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm borrar" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora950">
                                     <td>9:50</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora1000">
                                     <td>10:00</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora1010">
                                     <td>10:10</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora1020">
                                     <td>10:20</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora1030">
                                     <td>10:30</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                                <tr>
+                                <tr id="hora1040">
                                     <td>10:40</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
+                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree">
+                                            <i class="fas fa-user-md" style='font-size:18px'></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
+                                            <i class="fas fa-times" style='font-size:18px'></i>
+                                        </button>
+                                    </td>
                                 </tr>
+                                <tr>
                                 <tr>
                                     <td>10:50</td>
                                     <td></td>
@@ -1259,5 +1359,63 @@
         {
             $('#rlAvOI').val(0);
         }
+    }
+
+    function guardarReceta()
+    {
+        refraccionEsfOD = $("#reEsfOD").val();
+        refraccionEsfOI = $("#reEsfOI").val();
+        refraccionCilOD = $("#reCilOD").val();
+        refraccionCilOI = $("#reCilOI").val();
+        refraccionEjeOD = $("#reEjeOD").val();
+        refraccionEjeOI = $("#reEjeOI").val();
+
+        agudezaVisualEsfOD = $("#avEsfOD").val();
+        agudezaVisualEsfOI = $("#avEsfOI").val();
+        agudezaVisualCilOD = $("#avCilOD").val();
+        agudezaVisualCilOI = $("#avCilOI").val();
+
+        tonometriaPioOD = $("#toPioOD").val();
+        tonometriaPioOI = $("#toPioOI").val();
+
+        lensometriaEsfOD = $("#leEsfOD").val();
+        lensometriaEsfOI = $("#leEsfOI").val();
+        lensometriaCilOD = $("#leCilOD").val();
+        lensometriaCilOI = $("#leCilOI").val();
+        lensometriaEjeOD = $("#leEjeOD").val();
+        lensometriaEjeOI = $("#leEjeOI").val();
+
+        recetaLejosEsfOD = $("#rlEsfOD").val();
+        recetaLejosEsfOI = $("#rlEsfOI").val();
+        recetaLejosCilOD = $("#rlCilOD").val();
+        recetaLejosCilOI = $("#rlCilOI").val();
+        recetaLejosEjeOD = $("#rlEjeOD").val();
+        recetaLejosEjeOI = $("#rlEjeOI").val();
+        recetaLejosAgViOD = $("#rlAvOD").val();
+        recetaLejosAgViOI = $("#rlAvOI").val();
+        recetaLejosDisPup = $("#rlDp").val();
+
+        recetacercaAdiOD = $("#rcAdOD").val();
+        recetacercaAdiOI = $("#rcAdOI").val();
+        recetacercaEsfOD = $("#rcEsfOD").val();
+        recetacercaEsfOI = $("#rcEsfOI").val();
+        recetacercaCilOD = $("#rcCilOD").val();
+        recetacercaCilOI = $("#rcCilOI").val();
+        recetacercaEjeOD = $("#rcEjeOD").val();
+        recetacercaEjeOI = $("#rcEjeOI").val();
+        recetacercaJOD = $("#rcJOD").val();
+        recetacercaJOI = $("#rcJOI").val();
+        recetacercaDisPup = $("#rcDp").val();
+
+    }
+
+    function eliminarAgenda(elemento)
+    {
+        fila_id = elemento.parentNode.parentNode.id;
+        //console.log(fila_id);
+        $("#" + fila_id).children("td:nth-child(2)").text("");
+        $("#" + fila_id).children("td:nth-child(3)").text("");
+        $("#" + fila_id).children("td:nth-child(4)").text("");
+        $("#" + fila_id).children("td:nth-child(5)").text("");
     }
 </script>
