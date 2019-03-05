@@ -206,7 +206,7 @@
                 <div class="col-12 col-sm-5 col-lg-4">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header bg-success nocerrar">
+                            <div class="card-header bg-success ">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne" style="color: white;">
                                     Estadística
                                 </a>
@@ -220,7 +220,7 @@
                         
 
                         <div class="card">
-                            <div class="card-header bg-success nocerrar">
+                            <div class="card-header bg-success ">
                                 <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" style="color: white;">
                                     Registro Paciente
                                 </a>
@@ -355,7 +355,7 @@
 
 
                         <div class="card">
-                            <div class="card-header bg-success nocerrar">
+                            <div class="card-header bg-success ">
                                 <a class="collapsed card-link " data-toggle="collapse" href="#collapseThree" style="color: white;" id="fichapaciente">
                                     Ficha Paciente
                                 </a>
@@ -452,7 +452,7 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header bg-success nocerrar">
+                            <div class="card-header bg-success ">
                                 <a class="card-link" data-toggle="collapse" href="#collapseFour" style="color: white;">
                                     Calendario
                                 </a>
@@ -1746,23 +1746,23 @@
     var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
             new Array("15:20", "10:24", "Diego Jara 2", "accion3", "tarjeta de debito"));
             
-    $('.nocerrar > a[data-toggle="collapse"]').click(function(e){     
-    target = $(this).attr('href')
-    //alert(target);
-    //alert($(target).hasClass('show'));
-    if ($(target).hasClass('show')) {
-       //alert("hola");
-        e.stopPropagation()
-  }
-})
+//    $('.nocerrar > a[data-toggle="collapse"]').click(function(e){     
+//    target = $(this).attr('href')
+//    //alert(target);
+//    //alert($(target).hasClass('show'));
+//    if ($(target).hasClass('show')) {
+//       //alert("hola");
+//        e.stopPropagation()
+//  }
+//})
     
       
     function pacienteficha(elemento,e){
 //        var valor = "#collapseThree";
 //        alert("1");
-        alert($(collapseThree).hasClass('show'));
+        //alert($(collapseThree).hasClass('show'));
         if ($(collapseThree).hasClass('show')) {
-            alert("hola");
+            //alert("hola");
             e.stopPropagation()
         }
         
