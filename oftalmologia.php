@@ -515,7 +515,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover57" onclick="guardarid2('hora900')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -533,7 +533,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora910')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -551,7 +551,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora920')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse"  data-target="#collapseThree"  onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -569,7 +569,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover59" onclick="guardarid2('hora930')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -587,7 +587,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover60" onclick="guardarid2('hora940')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -605,7 +605,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover61" onclick="guardarid2('hora950')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -623,7 +623,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover62" onclick="guardarid2('hora1000')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -641,7 +641,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover63" onclick="guardarid2('hora1010')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -659,7 +659,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover64" onclick="guardarid2('hora1020')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -677,7 +677,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover65" onclick="guardarid2('hora1030')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -695,7 +695,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover66" onclick="guardarid2('hora1040')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -713,7 +713,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover67" onclick="guardarid2('hora1050')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -731,7 +731,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover68" onclick="guardarid2('hora1100')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -749,7 +749,7 @@
                                     <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover69" onclick="guardarid2('hora1110')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -767,7 +767,7 @@
                                     <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover70" onclick="guardarid2('hora1120')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -778,14 +778,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1130">
-                                    <td>11:30</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover16" onclick="guardarid('hora1130')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover71" onclick="guardarid2('hora1130')"></td>
-                                    <td>
+                                    <td style="width:79px">11:30</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover16" onclick="guardarid('hora1130')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover71" onclick="guardarid2('hora1130')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -796,14 +796,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1140">
-                                    <td>11:40</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover17" onclick="guardarid('hora1140')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover72" onclick="guardarid2('hora1140')"></td>
-                                    <td>
+                                    <td style="width:79px">11:40</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover17" onclick="guardarid('hora1140')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover72" onclick="guardarid2('hora1140')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -814,14 +814,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1150">
-                                    <td>11:50</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover18" onclick="guardarid('hora1150')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover73" onclick="guardarid2('hora1150')"></td>
-                                    <td>
+                                    <td style="width:79px">11:50</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover18" onclick="guardarid('hora1150')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover73" onclick="guardarid2('hora1150')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -832,14 +832,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1200">
-                                    <td>12:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover19" onclick="guardarid('hora1200')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover74" onclick="guardarid2('hora1200')"></td>
-                                    <td>
+                                    <td style="width:79px">12:00</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover19" onclick="guardarid('hora1200')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover74" onclick="guardarid2('hora1200')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -850,14 +850,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1210">
-                                    <td>12:10</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover20" onclick="guardarid('hora1210')"> </td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover75" onclick="guardarid2('hora1210')"></td>
-                                    <td>
+                                    <td style="width:79px">12:10</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover20" onclick="guardarid('hora1210')"> </td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover75" onclick="guardarid2('hora1210')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -868,14 +868,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1220">
-                                    <td>12:20</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover21" onclick="guardarid('hora1220')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover76" onclick="guardarid2('hora1220')"></td>
-                                    <td>
+                                    <td style="width:79px">12:20</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover21" onclick="guardarid('hora1220')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover76" onclick="guardarid2('hora1220')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -886,14 +886,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1230"> 
-                                    <td>12:30</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover22" onclick="guardarid('hora1230')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover77" onclick="guardarid2('hora1230')"></td>
-                                    <td>
+                                    <td style="width:79px">12:30</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover22" onclick="guardarid('hora1230')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover77" onclick="guardarid2('hora1230')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -904,14 +904,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1240">
-                                    <td>12:40</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover23" onclick="guardarid('hora1240')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover78" onclick="guardarid2('hora1240')"></td>
-                                    <td>
+                                    <td style="width:79px">12:40</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover23" onclick="guardarid('hora1240')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover78" onclick="guardarid2('hora1240')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -922,14 +922,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1250">
-                                    <td>12:50</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover24" onclick="guardarid('hora1250')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover79" onclick="guardarid2('hora1250')"></td>
-                                    <td>
+                                    <td style="width:79px">12:50</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover24" onclick="guardarid('hora1250')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover79" onclick="guardarid2('hora1250')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -940,14 +940,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1300">
-                                    <td>13:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover25" onclick="guardarid('hora1300')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover80" onclick="guardarid2('hora1300')"></td>
-                                    <td>
+                                    <td style="width:79px">13:00</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover25" onclick="guardarid('hora1300')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover80" onclick="guardarid2('hora1300')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -958,14 +958,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1310">
-                                    <td>13:10</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover26" onclick="guardarid('hora1310')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover81" onclick="guardarid2('hora1310')"></td>
-                                    <td>
+                                    <td style="width:79px">13:10</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover26" onclick="guardarid('hora1310')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover81" onclick="guardarid2('hora1310')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -976,14 +976,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1320">
-                                    <td>13:20</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover27" onclick="guardarid('hora1320')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover82" onclick="guardarid2('hora1320')"></td>
-                                    <td>
+                                    <td style="width:79px">13:20</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover27" onclick="guardarid('hora1320')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover82" onclick="guardarid2('hora1320')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -994,14 +994,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1330">
-                                    <td>13:30</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover28" onclick="guardarid('hora1330')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover83" onclick="guardarid2('hora1330')"></td>
-                                    <td>
+                                    <td style="width:79px">13:30</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover28" onclick="guardarid('hora1330')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover83" onclick="guardarid2('hora1330')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1012,14 +1012,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1340">
-                                    <td>13:40</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover29" onclick="guardarid('hora1340')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover84" onclick="guardarid2('hora1340')"></td>
-                                    <td>
+                                    <td style="width:79px">13:40</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover29" onclick="guardarid('hora1340')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover84" onclick="guardarid2('hora1340')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1030,14 +1030,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1350">
-                                    <td>13:50</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover30" onclick="guardarid('hora1350')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover85" onclick="guardarid2('hora1350')"></td>
-                                    <td>
+                                    <td style="width:79px">13:50</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover30" onclick="guardarid('hora1350')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover85" onclick="guardarid2('hora1350')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1048,14 +1048,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1400">
-                                    <td>14:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover32" onclick="guardarid('hora1400')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover86" onclick="guardarid2('hora1400')"></td>
-                                    <td>
+                                    <td style="width:79px">14:00</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover32" onclick="guardarid('hora1400')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover86" onclick="guardarid2('hora1400')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1066,14 +1066,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1410">
-                                    <td>14:10</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover33" onclick="guardarid('hora1410')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover87" onclick="guardarid2('hora1410')"></td>
-                                    <td>
+                                    <td style="width:79px">14:10</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover33" onclick="guardarid('hora1410')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover87" onclick="guardarid2('hora1410')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1084,14 +1084,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1420">
-                                    <td>14:20</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover34" onclick="guardarid('hora1420')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover88" onclick="guardarid2('hora1420')"></td>
-                                    <td>
+                                    <td style="width:79px">14:20</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover34" onclick="guardarid('hora1420')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover88" onclick="guardarid2('hora1420')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1102,14 +1102,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1430">
-                                    <td>14:30</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover35" onclick="guardarid('hora1430')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover89" onclick="guardarid2('hora1430')"></td>
-                                    <td>
+                                    <td style="width:79px">14:30</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover35" onclick="guardarid('hora1430')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover89" onclick="guardarid2('hora1430')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1120,14 +1120,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1440">
-                                    <td>14:40</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover36" onclick="guardarid('hora1440')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover90" onclick="guardarid2('hora1440')"></td>
-                                    <td>
+                                    <td style="width:79px">14:40</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover36" onclick="guardarid('hora1440')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover90" onclick="guardarid2('hora1440')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1138,14 +1138,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1450">
-                                    <td>14:50</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover37" onclick="guardarid('hora1450')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover91" onclick="guardarid2('hora1450')"></td>
-                                    <td>
+                                    <td style="width:79px">14:50</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover37" onclick="guardarid('hora1450')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover91" onclick="guardarid2('hora1450')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1156,14 +1156,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1500">
-                                    <td>15:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover38" onclick="guardarid('hora1500')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover92" onclick="guardarid2('hora1500')"></td>
-                                    <td>
+                                    <td style="width:79px">15:00</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover38" onclick="guardarid('hora1500')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover92" onclick="guardarid2('hora1500')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1174,14 +1174,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1510">
-                                    <td>15:10</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover39" onclick="guardarid('hora1510')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover93" onclick="guardarid2('hora1510')"></td>
-                                    <td>
+                                    <td style="width:79px">15:10</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover39" onclick="guardarid('hora1510')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover93" onclick="guardarid2('hora1510')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1192,14 +1192,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1520">
-                                    <td>15:20</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover40" onclick="guardarid('hora1520')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover94" onclick="guardarid2('hora1520')"></td>
-                                    <td>
+                                    <td style="width:79px">15:20</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover40" onclick="guardarid('hora1520')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover94" onclick="guardarid2('hora1520')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1210,14 +1210,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1530">
-                                    <td>15:30</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover41" onclick="guardarid('hora1530')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover95" onclick="guardarid2('hora1530')"></td>
+                                    <td style="width:79px">15:30</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover41" onclick="guardarid('hora1530')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover95" onclick="guardarid2('hora1530')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1228,14 +1228,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1540">
-                                    <td>15:40</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover42" onclick="guardarid('hora1540')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover96" onclick="guardarid2('hora1540')"></td>
-                                    <td>
+                                    <td style="width:79px"> 15:40</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover42" onclick="guardarid('hora1540')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover96" onclick="guardarid2('hora1540')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1246,14 +1246,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1550">
-                                    <td>15:50</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover43" onclick="guardarid('hora1550')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover97" onclick="guardarid2('hora1550')"></td>
-                                    <td>
+                                    <td style="width:79px">15:50</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover43" onclick="guardarid('hora1550')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover97" onclick="guardarid2('hora1550')"></td>
+                                    <td style="width: 133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1264,14 +1264,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1600">
-                                    <td>16:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover44" onclick="guardarid('hora1600')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover98" onclick="guardarid2('hora1600')"></td>
-                                    <td>
+                                    <td style="width:79px">16:00</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover44" onclick="guardarid('hora1600')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover98" onclick="guardarid2('hora1600')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1282,14 +1282,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1610">
-                                    <td>16:10</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover45" onclick="guardarid('hora1610')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover99" onclick="guardarid2('hora1610')"></td>
-                                    <td>
+                                    <td style="width:79px">16:10</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover45" onclick="guardarid('hora1610')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover99" onclick="guardarid2('hora1610')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1300,14 +1300,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1620">
-                                    <td>16:20</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover46" onclick="guardarid('hora1620')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover100" onclick="guardarid2('hora1620')"></td>
-                                    <td>
+                                    <td style="width:79px">16:20</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover46" onclick="guardarid('hora1620')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover100" onclick="guardarid2('hora1620')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1318,14 +1318,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1630">
-                                    <td>16:30</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover47" onclick="guardarid('hora1630')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover101" onclick="guardarid2('hora1630')"></td>
-                                    <td>
+                                    <td style="width:79px">16:30</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover47" onclick="guardarid('hora1630')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover101" onclick="guardarid2('hora1630')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1336,14 +1336,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1640">
-                                    <td>16:40</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover48" onclick="guardarid('hora1640')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover102" onclick="guardarid2('hora1640')"></td>
-                                    <td>
+                                    <td style="width:79px">16:40</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover48" onclick="guardarid('hora1640')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover102" onclick="guardarid2('hora1640')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse"  data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1354,14 +1354,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1650">
-                                    <td>16:50</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover49" onclick="guardarid('hora1650')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover103" onclick="guardarid2('hora1650')"></td>
-                                    <td>
+                                    <td style="width:79px">16:50</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px"class="edit"  data-toggle="popover" id="showPopover49" onclick="guardarid('hora1650')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover103" onclick="guardarid2('hora1650')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1372,14 +1372,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1700">
-                                    <td>17:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover50" onclick="guardarid('hora1700')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover104" onclick="guardarid2('hora1700')"></td>
-                                    <td>
+                                    <td style="width:79px">17:00</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover50" onclick="guardarid('hora1700')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover104" onclick="guardarid2('hora1700')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1390,14 +1390,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1710">
-                                    <td>17:10</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover51" onclick="guardarid('hora1710')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover105" onclick="guardarid2('hora1710')"></td>
-                                    <td>
+                                    <td style="width:79px">17:10</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover51" onclick="guardarid('hora1710')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover105" onclick="guardarid2('hora1710')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1408,14 +1408,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1720">
-                                    <td>17:20</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover52" onclick="guardarid('hora1720')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover106" onclick="guardarid2('hora1720')"></td>
-                                    <td>
+                                    <td style="width:79px">17:20</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover52" onclick="guardarid('hora1720')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover106" onclick="guardarid2('hora1720')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1426,14 +1426,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1730">
-                                    <td>17:30</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover53" onclick="guardarid('hora1730')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover107" onclick="guardarid2('hora1730')"></td>
-                                    <td>
+                                    <td style="width:79px">17:30</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover53" onclick="guardarid('hora1730')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover107" onclick="guardarid2('hora1730')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)"> 
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1444,14 +1444,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1740">
-                                    <td>17:40</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover54" onclick="guardarid('hora1740')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover108" onclick="guardarid2('hora1740')"></td>
+                                    <td style="width:79px">17:40</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover54" onclick="guardarid('hora1740')"></td>
+                                    <td  style="width:198px"class="edit2"  data-toggle="popover" id="showPopover108" onclick="guardarid2('hora1740')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "  ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1462,14 +1462,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1750">
-                                    <td>17:50</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover55" onclick="guardarid('hora1750')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover109" onclick="guardarid2('hora1750')"></td>
-                                    <td>
+                                    <td style="width:79px">17:50</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover55" onclick="guardarid('hora1750')"></td>
+                                    <td style="width:198px"class="edit2"  data-toggle="popover" id="showPopover109" onclick="guardarid2('hora1750')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history "></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
@@ -1480,14 +1480,14 @@
                                     </td>
                                 </tr>
                                 <tr id="hora1800">
-                                    <td>18:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover56" onclick="guardarid('hora1800')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover110" onclick="guardarid2('hora1800')"></td>
-                                    <td>
+                                    <td style="width:79px">18:00</td>
+                                    <td style="width:84px"></td>
+                                    <td style="width:228px"></td>
+                                    <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover56" onclick="guardarid('hora1800')"></td>
+                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover110" onclick="guardarid2('hora1800')"></td>
+                                    <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
-                                            <i class="fa fa-history "  style='font-size:18px'></i>
+                                            <i class="fa fa-history " ></i>
                                         </button>
                                         <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>

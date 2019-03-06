@@ -19,7 +19,7 @@ and open the template in the editor.
 }*/
 .classtable tbody {
     display:block;
-    height:500px;
+    height:700px;
     overflow:auto;
 }
 .classtable thead, .classtable tbody tr {
