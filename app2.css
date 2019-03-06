@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/03/2019, 02:26:17 PM
+    Author     : Diego
+*/
+.jqx-layout-group-auto-hide-content-vertical
+{
+    width: 200px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #Tmain {
+        width:600px !important;
+    }
+    }
+.classtable tbody {
+    display:block;
+    height:500px;
+    overflow:auto;
+}
+.classtable thead, .classtable tbody tr {
+    display:table;
+    /*width:100%;*/
+    table-layout:fixed;
+}
+.classtable thead {
+    /*width: calc( 100% - 1em )*/
+}
+
+.classtable td{
+    /*width: 100%;*/
+}

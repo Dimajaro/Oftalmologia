@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.base.css" type="text/css" />
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css" type="text/css" />
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.arctic.css" type="text/css" />
-        <link rel="stylesheet" href="app.css" type="text/css" />
+        <link rel="stylesheet" href="app2.css" type="text/css" />
         <link rel="stylesheet" href="style.css" >
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -491,16 +491,16 @@
                 
                 
                 <div class="col-12 col-sm-7 col-lg-8 ">
-                   <div class=" " style="overflow-x: scroll">
+                   <div class=" ">
                         <table id="Tmain" class="table table-bordered table-striped classtable"  style="width:940px">
                             <thead>
                                 <tr>
-                                    <th style="width:5%">Hora</th>
-                                    <th style="width:5%">Llegada</th>
-                                    <th style="width:25%">Nombre</th>
-                                    <th style="width:25%">Acción</th>
-                                    <th style="width:25%">Pago</th>
-                                    <th style="width:15%">Funciones</th>
+                                    <th style="width:80px">Hora</th>
+                                    <th style="width:50px">Llegada</th>
+                                    <th style="width:230px">Nombre</th>
+                                    <th style="width:200px">Acción</th>
+                                    <th style="width:200px">Pago</th>
+                                    <th style="width:150px">Funciones</th>
                                 </tr>
                             </thead> 
 
@@ -508,12 +508,12 @@
                             <tbody>
                                 <tr id="hora900">
 
-                                    <td >9:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover1" onclick="guardarid('hora900')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover57" onclick="guardarid2('hora900')"></td>
-                                    <td>
+                                    <td style="width:80px">9:00</td>
+                                    <td style="width:50px"></td>
+                                    <td style="width:200px"></td>
+                                    <td style="width:200px" class="edit"  data-toggle="popover" id="showPopover1" onclick="guardarid('hora900')"></td>
+                                    <td style="width:200px" class="edit2"  data-toggle="popover" id="showPopover57" onclick="guardarid2('hora900')"></td>
+                                    <td style="width:150px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
                                         </button>
@@ -526,12 +526,12 @@
                                     </td>
                                 </tr>
                                 <tr id="hora910">
-                                    <td>9:10</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover2" onclick="guardarid('hora910')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora910')"></td>
-                                    <td>
+                                    <td style="width:80px">9:10</td>
+                                    <td style="width:86px"></td>
+                                    <td style="width:236px"></td>
+                                    <td style="width:200px" class="edit"  data-toggle="popover" id="showPopover2" onclick="guardarid('hora910')"></td>
+                                    <td style="width:200px" class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora910')"></td>
+                                    <td style="width:150px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
                                         </button>
@@ -544,12 +544,12 @@
                                     </td>
                                 </tr>
                                 <tr id="hora920">
-                                    <td>9:20</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="edit"  data-toggle="popover" id="showPopover3" onclick="guardarid('hora920')"></td>
-                                    <td class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora920')"></td>
-                                    <td>
+                                    <td style="width:80px">9:20</td>
+                                    <td style="width:86px"></td>
+                                    <td style="width:236px"></td>
+                                    <td style="width:200px" class="edit"  data-toggle="popover" id="showPopover3" onclick="guardarid('hora920')"></td>
+                                    <td style="width:200px" class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora920')"></td>
+                                    <td style="width:150px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
                                         </button>
