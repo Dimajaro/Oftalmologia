@@ -12,11 +12,11 @@ and open the template in the editor.
     width: 200px;
 }
 
-@media only screen and (max-width: 1024px) {
+/*@media only screen and (max-width: 1024px) {
     #Tmain {
         width:600px !important;
     }
-    }
+}*/
 .classtable tbody {
     display:block;
     height:500px;
