@@ -507,8 +507,8 @@
                                     <td >9:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover1" onclick="guardarid('hora900')"> </label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover57" onclick="guardarid2('hora900')"> </label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover1" onclick="guardarid('hora900')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover57" onclick="guardarid2('hora900')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -525,8 +525,8 @@
                                     <td>9:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover2" onclick="guardarid('hora910')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora910')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover2" onclick="guardarid('hora910')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora910')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -543,8 +543,8 @@
                                     <td>9:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover3" onclick="guardarid('hora920')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora920')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover3" onclick="guardarid('hora920')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover58" onclick="guardarid2('hora920')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -561,8 +561,8 @@
                                     <td>9:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover4" onclick="guardarid('hora930')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover59" onclick="guardarid2('hora930')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover4" onclick="guardarid('hora930')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover59" onclick="guardarid2('hora930')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -579,8 +579,8 @@
                                     <td>9:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover5" onclick="guardarid('hora940')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover60" onclick="guardarid2('hora940')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover5" onclick="guardarid('hora940')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover60" onclick="guardarid2('hora940')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -597,8 +597,8 @@
                                     <td>9:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover6" onclick="guardarid('hora950')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover61" onclick="guardarid2('hora950')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover6" onclick="guardarid('hora950')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover61" onclick="guardarid2('hora950')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -615,8 +615,8 @@
                                     <td>10:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover7" onclick="guardarid('hora1000')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover62" onclick="guardarid2('hora1000')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover7" onclick="guardarid('hora1000')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover62" onclick="guardarid2('hora1000')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -633,8 +633,8 @@
                                     <td>10:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover8" onclick="guardarid('hora1010')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover63" onclick="guardarid2('hora1010')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover8" onclick="guardarid('hora1010')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover63" onclick="guardarid2('hora1010')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -651,8 +651,8 @@
                                     <td>10:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover9" onclick="guardarid('hora1020')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover64" onclick="guardarid2('hora1020')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover9" onclick="guardarid('hora1020')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover64" onclick="guardarid2('hora1020')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -669,8 +669,8 @@
                                     <td>10:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover10" onclick="guardarid('hora1030')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover65" onclick="guardarid2('hora1030')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover10" onclick="guardarid('hora1030')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover65" onclick="guardarid2('hora1030')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -687,8 +687,8 @@
                                     <td>10:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover11" onclick="guardarid('hora1040')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover66" onclick="guardarid2('hora1040')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover11" onclick="guardarid('hora1040')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover66" onclick="guardarid2('hora1040')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -705,8 +705,8 @@
                                     <td>10:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover12" onclick="guardarid('hora1050')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover67" onclick="guardarid2('hora1050')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover12" onclick="guardarid('hora1050')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover67" onclick="guardarid2('hora1050')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -723,8 +723,8 @@
                                     <td>11:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover13" onclick="guardarid('hora1100')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover68" onclick="guardarid2('hora1100')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover13" onclick="guardarid('hora1100')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover68" onclick="guardarid2('hora1100')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -741,8 +741,8 @@
                                     <td>11:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover14" onclick="guardarid('hora1110')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover69" onclick="guardarid2('hora1110')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover14" onclick="guardarid('hora1110')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover69" onclick="guardarid2('hora1110')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -759,8 +759,8 @@
                                     <td>11:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover15" onclick="guardarid('hora1120')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover70" onclick="guardarid2('hora1120')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover15" onclick="guardarid('hora1120')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover70" onclick="guardarid2('hora1120')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -777,8 +777,8 @@
                                     <td>11:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover16" onclick="guardarid('hora1130')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover71" onclick="guardarid2('hora1130')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover16" onclick="guardarid('hora1130')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover71" onclick="guardarid2('hora1130')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -795,8 +795,8 @@
                                     <td>11:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover17" onclick="guardarid('hora1140')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover72" onclick="guardarid2('hora1140')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover17" onclick="guardarid('hora1140')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover72" onclick="guardarid2('hora1140')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -813,8 +813,8 @@
                                     <td>11:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover18" onclick="guardarid('hora1150')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover73" onclick="guardarid2('hora1150')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover18" onclick="guardarid('hora1150')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover73" onclick="guardarid2('hora1150')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -831,8 +831,8 @@
                                     <td>12:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover19" onclick="guardarid('hora1200')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover74" onclick="guardarid2('hora1200')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover19" onclick="guardarid('hora1200')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover74" onclick="guardarid2('hora1200')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -849,8 +849,8 @@
                                     <td>12:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover20" onclick="guardarid('hora1210')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover75" onclick="guardarid2('hora1210')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover20" onclick="guardarid('hora1210')"> </td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover75" onclick="guardarid2('hora1210')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -867,8 +867,8 @@
                                     <td>12:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover21" onclick="guardarid('hora1220')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover76" onclick="guardarid2('hora1220')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover21" onclick="guardarid('hora1220')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover76" onclick="guardarid2('hora1220')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -885,8 +885,8 @@
                                     <td>12:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover22" onclick="guardarid('hora1230')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover77" onclick="guardarid2('hora1230')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover22" onclick="guardarid('hora1230')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover77" onclick="guardarid2('hora1230')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -903,8 +903,8 @@
                                     <td>12:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover23" onclick="guardarid('hora1240')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover78" onclick="guardarid2('hora1240')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover23" onclick="guardarid('hora1240')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover78" onclick="guardarid2('hora1240')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -921,8 +921,8 @@
                                     <td>12:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover24" onclick="guardarid('hora1250')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover79" onclick="guardarid2('hora1250')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover24" onclick="guardarid('hora1250')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover79" onclick="guardarid2('hora1250')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -939,8 +939,8 @@
                                     <td>13:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover25" onclick="guardarid('hora1300')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover80" onclick="guardarid2('hora1300')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover25" onclick="guardarid('hora1300')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover80" onclick="guardarid2('hora1300')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -957,8 +957,8 @@
                                     <td>13:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover26" onclick="guardarid('hora1310')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover81" onclick="guardarid2('hora1310')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover26" onclick="guardarid('hora1310')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover81" onclick="guardarid2('hora1310')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -975,8 +975,8 @@
                                     <td>13:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover27" onclick="guardarid('hora1320')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover82" onclick="guardarid2('hora1320')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover27" onclick="guardarid('hora1320')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover82" onclick="guardarid2('hora1320')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -993,8 +993,8 @@
                                     <td>13:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover28" onclick="guardarid('hora1330')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover83" onclick="guardarid2('hora1330')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover28" onclick="guardarid('hora1330')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover83" onclick="guardarid2('hora1330')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1011,8 +1011,8 @@
                                     <td>13:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover29" onclick="guardarid('hora1340')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover84" onclick="guardarid2('hora1340')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover29" onclick="guardarid('hora1340')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover84" onclick="guardarid2('hora1340')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1029,8 +1029,8 @@
                                     <td>13:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover30" onclick="guardarid('hora1350')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover85" onclick="guardarid2('hora1350')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover30" onclick="guardarid('hora1350')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover85" onclick="guardarid2('hora1350')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1047,8 +1047,8 @@
                                     <td>14:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover32" onclick="guardarid('hora1400')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover86" onclick="guardarid2('hora1400')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover32" onclick="guardarid('hora1400')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover86" onclick="guardarid2('hora1400')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1065,8 +1065,8 @@
                                     <td>14:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover33" onclick="guardarid('hora1410')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover87" onclick="guardarid2('hora1410')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover33" onclick="guardarid('hora1410')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover87" onclick="guardarid2('hora1410')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1083,8 +1083,8 @@
                                     <td>14:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover34" onclick="guardarid('hora1420')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover88" onclick="guardarid2('hora1420')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover34" onclick="guardarid('hora1420')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover88" onclick="guardarid2('hora1420')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1101,8 +1101,8 @@
                                     <td>14:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover35" onclick="guardarid('hora1430')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover89" onclick="guardarid2('hora1430')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover35" onclick="guardarid('hora1430')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover89" onclick="guardarid2('hora1430')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1119,8 +1119,8 @@
                                     <td>14:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover36" onclick="guardarid('hora1440')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover90" onclick="guardarid2('hora1440')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover36" onclick="guardarid('hora1440')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover90" onclick="guardarid2('hora1440')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1137,8 +1137,8 @@
                                     <td>14:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover37" onclick="guardarid('hora1450')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover91" onclick="guardarid2('hora1450')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover37" onclick="guardarid('hora1450')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover91" onclick="guardarid2('hora1450')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1155,8 +1155,8 @@
                                     <td>15:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover38" onclick="guardarid('hora1500')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover92" onclick="guardarid2('hora1500')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover38" onclick="guardarid('hora1500')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover92" onclick="guardarid2('hora1500')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1173,8 +1173,8 @@
                                     <td>15:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover39" onclick="guardarid('hora1510')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover93" onclick="guardarid2('hora1510')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover39" onclick="guardarid('hora1510')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover93" onclick="guardarid2('hora1510')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1191,8 +1191,8 @@
                                     <td>15:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover40" onclick="guardarid('hora1520')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover94" onclick="guardarid2('hora1520')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover40" onclick="guardarid('hora1520')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover94" onclick="guardarid2('hora1520')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1209,8 +1209,8 @@
                                     <td>15:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover41" onclick="guardarid('hora1530')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover95" onclick="guardarid2('hora1530')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover41" onclick="guardarid('hora1530')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover95" onclick="guardarid2('hora1530')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1227,8 +1227,8 @@
                                     <td>15:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover42" onclick="guardarid('hora1540')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover96" onclick="guardarid2('hora1540')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover42" onclick="guardarid('hora1540')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover96" onclick="guardarid2('hora1540')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1245,8 +1245,8 @@
                                     <td>15:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover43" onclick="guardarid('hora1550')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover97" onclick="guardarid2('hora1550')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover43" onclick="guardarid('hora1550')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover97" onclick="guardarid2('hora1550')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1263,8 +1263,8 @@
                                     <td>16:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover44" onclick="guardarid('hora1600')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover98" onclick="guardarid2('hora1600')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover44" onclick="guardarid('hora1600')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover98" onclick="guardarid2('hora1600')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1281,8 +1281,8 @@
                                     <td>16:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover45" onclick="guardarid('hora1610')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover99" onclick="guardarid2('hora1610')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover45" onclick="guardarid('hora1610')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover99" onclick="guardarid2('hora1610')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1299,8 +1299,8 @@
                                     <td>16:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover46" onclick="guardarid('hora1620')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover100" onclick="guardarid2('hora1620')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover46" onclick="guardarid('hora1620')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover100" onclick="guardarid2('hora1620')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1317,8 +1317,8 @@
                                     <td>16:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover47" onclick="guardarid('hora1630')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover101" onclick="guardarid2('hora1630')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover47" onclick="guardarid('hora1630')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover101" onclick="guardarid2('hora1630')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1335,8 +1335,8 @@
                                     <td>16:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover48" onclick="guardarid('hora1640')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover102" onclick="guardarid2('hora1640')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover48" onclick="guardarid('hora1640')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover102" onclick="guardarid2('hora1640')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1353,8 +1353,8 @@
                                     <td>16:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover49" onclick="guardarid('hora1650')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover103" onclick="guardarid2('hora1650')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover49" onclick="guardarid('hora1650')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover103" onclick="guardarid2('hora1650')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1371,8 +1371,8 @@
                                     <td>17:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover50" onclick="guardarid('hora1700')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover104" onclick="guardarid2('hora1700')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover50" onclick="guardarid('hora1700')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover104" onclick="guardarid2('hora1700')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1389,8 +1389,8 @@
                                     <td>17:10</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover51" onclick="guardarid('hora1710')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover105" onclick="guardarid2('hora1710')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover51" onclick="guardarid('hora1710')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover105" onclick="guardarid2('hora1710')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1407,8 +1407,8 @@
                                     <td>17:20</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover52" onclick="guardarid('hora1720')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover106" onclick="guardarid2('hora1720')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover52" onclick="guardarid('hora1720')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover106" onclick="guardarid2('hora1720')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1425,8 +1425,8 @@
                                     <td>17:30</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover53" onclick="guardarid('hora1730')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover107" onclick="guardarid2('hora1730')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover53" onclick="guardarid('hora1730')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover107" onclick="guardarid2('hora1730')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1443,8 +1443,8 @@
                                     <td>17:40</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover54" onclick="guardarid('hora1740')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover108" onclick="guardarid2('hora1740')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover54" onclick="guardarid('hora1740')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover108" onclick="guardarid2('hora1740')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1461,8 +1461,8 @@
                                     <td>17:50</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover55" onclick="guardarid('hora1750')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover109" onclick="guardarid2('hora1750')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover55" onclick="guardarid('hora1750')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover109" onclick="guardarid2('hora1750')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1479,8 +1479,8 @@
                                     <td>18:00</td>
                                     <td></td>
                                     <td></td>
-                                    <td><label class="edit"  data-toggle="popover" id="showPopover56" onclick="guardarid('hora1800')"> buton</label></td>
-                                    <td><label class="edit2"  data-toggle="popover" id="showPopover110" onclick="guardarid2('hora1800')"> buton</label></td>
+                                    <td class="edit"  data-toggle="popover" id="showPopover56" onclick="guardarid('hora1800')"></td>
+                                    <td class="edit2"  data-toggle="popover" id="showPopover110" onclick="guardarid2('hora1800')"></td>
                                     <td>
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  style='font-size:18px'></i>
@@ -1756,9 +1756,31 @@
 </html>
 
 <script type="text/javascript">
+    function evento(obj,especialista){
+    objeto = obj;
+    tipo_especialista = especialista;
+    //alert(tipo_especialista);
+ if($("#id_paciente").text() != ''){      
+  if(tipo_especialista == 1){  
+   $(obj).popover({title: "<h4><strong>Psiquiatra</strong></h4>", 
+     content: "<div class='container'><div class='col-md-2'>\n\
+       <ul class='list-group'>\n\
+           <li onclick='reghora1(objeto,1,21);actualizar()' class='list-group-item'>Atencion Dual</li>\n\
+           <li onclick='reghora1(objeto,1,51);actualizar()' class='list-group-item'>Control Psiquiatrico</li>\n\
+      </ul></div></div>", html: true, placement: "auto"});
+  }
+    
+ }else if(datospaciente()){
+       alert("Guardar datos Paciente");
+       document.getElementById("guardar").focus();
+  }else{
+       alert("Seleccionar Paciente");
+       document.getElementById("myBtn").focus();
+  }        
+}
     var idfila;
-//    var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
-//            new Array("15:20", "10:24", "Diego Jara 2", "accion3", "tarjeta de debito"));
+    var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
+            new Array("15:20", "10:24", "Diego Jara 2", "accion3", "tarjeta de debito"));
             
 //    $('.nocerrar > a[data-toggle="collapse"]').click(function(e){     
 //    target = $(this).attr('href')
@@ -2114,7 +2136,7 @@
         var $pop = $(item);
         
             $pop.popover({
-            placement: 'right',
+            placement: 'bottom',
             title: ( title || '&nbsp;' ) + ' <a class="close" href="#">&times;</a>',
             trigger: 'click',
             html: true,
@@ -2141,7 +2163,7 @@
                 //console.log('OK triggered');
                 //alert(this.id);
                 text = this.id;      
-                $("#" + idfila).children("td:nth-child(5)").children("label:nth-child(1)").text(this.innerHTML);     
+                $("#" + idfila).children("td:nth-child(5)").text(this.innerHTML);     
                 //alert("lbla");
                 $pop.popover('hide');
             });
@@ -2165,7 +2187,7 @@
         var $pop = $(item);
         
             $pop.popover({
-            placement: 'right',
+            placement: 'bottom',
             title: ( title || '&nbsp;' ) + ' <a class="close" href="#">&times;</a>',
             trigger: 'click',
             html: true,
@@ -2194,7 +2216,7 @@
                 //alert(this.id);  
 
                 text = this.id;      
-                $("#" + idfila).children("td:nth-child(4)").children("label:nth-child(1)").text(this.innerHTML);     
+                $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);     
                 //alert("lbla");
                 $pop.popover('hide');
             });
