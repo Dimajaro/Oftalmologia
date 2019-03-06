@@ -492,7 +492,7 @@
                 
                 <div class="col-12 col-sm-7 col-lg-8 ">
                    <div class=" " style="overflow-x: scroll">
-                        <table id="Tmain" class="table table-bordered table-striped "  style="width:940px">
+                        <table id="Tmain" class="table table-bordered table-striped classtable"  style="width:940px">
                             <thead>
                                 <tr>
                                     <th style="width:5%">Hora</th>
