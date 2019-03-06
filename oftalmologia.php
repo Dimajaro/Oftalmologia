@@ -23,6 +23,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
         <script type="text/javascript" src="https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"></script>
 
@@ -486,17 +488,19 @@
                     <label id="pago3" class="form-control LBL">Pago3</label>
                     <label id="pago4" class="form-control LBL">Pago4</label>
                 </div>
-                <div class="col-12 col-sm-7 col-lg-8 table-responsive">
-                    <div class="table-responsive" style="overflow-x: scroll">
-                        <table id="Tmain" class="table table-bordered table-striped classtable"  >
+                
+                
+                <div class="col-12 col-sm-7 col-lg-8 ">
+                   <div class=" " style="overflow-x: scroll">
+                        <table id="Tmain" class="table table-bordered table-striped "  style="width:940px">
                             <thead>
                                 <tr>
-                                    <th>Hora</th>
-                                    <th>Llegada</th>
-                                    <th>Nombre</th>
-                                    <th>Acción</th>
-                                    <th>Pago</th>
-                                    <th>Funciones</th>
+                                    <th style="width:5%">Hora</th>
+                                    <th style="width:5%">Llegada</th>
+                                    <th style="width:25%">Nombre</th>
+                                    <th style="width:25%">Acción</th>
+                                    <th style="width:25%">Pago</th>
+                                    <th style="width:15%">Funciones</th>
                                 </tr>
                             </thead> 
 
@@ -1822,6 +1826,7 @@
     
     function cargarTabla()
     {
+        
         var table = document.getElementById("Tmain");
         if (table != null) {
             for (var i = 1; i < table.rows.length; i++) {
@@ -1837,7 +1842,7 @@
 
 
                 }
-                table.rows[i].cells[2].ondblclick = function () {
+                table.rows[i].cells[2].onclick = function () {
                     $("#Mnombre").modal();
 
                 }
