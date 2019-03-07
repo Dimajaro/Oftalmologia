@@ -24,7 +24,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-        
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
         <script type="text/javascript" src="https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"></script>
 
@@ -168,7 +168,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Buscado de Pacientes</h4>
-                    
+
                     <button type="button" class="close" data-dismiss="modal">&times;</button>  
                 </div>
                 <div class="modal-body">
@@ -221,7 +221,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
 
                         <div class="card">
                             <div class="card-header bg-success ">
@@ -289,16 +289,16 @@
                                         <div class="col-12 col-sm-12 col-lg-4">
                                             <label class="control-label " for="rut">Fecha Nac :</label> 
                                         </div>
-                                        
+
                                         <div class="col-12 col-sm-12 col-lg-5">
                                             <input type="date" id="txt_fechanac" class="form-control"   placeholder="" value=""  > 
                                         </div>
-                                         
+
                                         <div class="col-12 col-sm-12 col-lg-3">
                                             <input type="text" id="txt_edad" class="form-control"   placeholder="Edad" value=""   > 
                                         </div>
-                                    
-                                        
+
+
                                     </div>
 
                                     <div class="row form-group">
@@ -463,12 +463,12 @@
                             </div>
                             <div id="collapseFour" class="collapse show" data-parent="#accordion">
                                 <div class="card-body">
-                                     <center>
-                                    <div id="calendar" style="">
-                                    </div>
-                                    <div id="log">
-                                    </div>
-                                </center>  
+                                    <center>
+                                        <div id="calendar" style="">
+                                        </div>
+                                        <div id="log">
+                                        </div>
+                                    </center>  
                                 </div>
                             </div>
                         </div> 
@@ -476,7 +476,7 @@
                     </div>
 
                 </div> 
-                
+
                 <div id="popup-content" class="d-none">  
                     <label id="p1" class="form-control LBL">Consulta</label>
                     <label id="p2" class="form-control LBL">Urgencia</label>
@@ -494,11 +494,11 @@
                     <label id="pago7" class="form-control LBL">Isapre</label>
                     <label id="pago8" class="form-control LBL">Sin costo</label>
                 </div>
-                
-                
+
+
                 <div class="col-12 col-sm-7 col-lg-8 ">
-                   <div class="table-responsive">
-                        <table id="Tmain" class="table table-bordered table-striped classtable"  style="width:940px">
+                    <div class="table-responsive">
+                        <table id="Tmain" class="table table-bordered classtable"  style="width:940px">
                             <thead>
                                 <tr>
                                     <th style="width:80px">Hora</th>
@@ -523,7 +523,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm borrar" onclick="eliminarAgenda(this)">
@@ -541,7 +541,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -559,7 +559,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse"  data-target="#collapseThree"  onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse"  data-target="#collapseThree"  onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm borrar" onclick="eliminarAgenda(this)">
@@ -577,7 +577,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -595,7 +595,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm borrar" onclick="eliminarAgenda(this)">
@@ -613,7 +613,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -631,7 +631,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -649,7 +649,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -667,7 +667,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -685,7 +685,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -703,7 +703,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -721,7 +721,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -739,7 +739,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -757,7 +757,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -775,7 +775,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -793,7 +793,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -811,7 +811,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -829,7 +829,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -847,7 +847,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -865,7 +865,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -883,7 +883,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -901,7 +901,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -919,7 +919,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -937,7 +937,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -955,7 +955,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -973,7 +973,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -991,7 +991,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1009,7 +1009,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1027,7 +1027,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1045,7 +1045,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1063,7 +1063,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1081,7 +1081,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1099,7 +1099,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1117,7 +1117,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1135,7 +1135,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1153,7 +1153,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1171,7 +1171,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1189,7 +1189,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1207,7 +1207,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1225,7 +1225,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1243,7 +1243,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1261,7 +1261,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1279,7 +1279,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1297,7 +1297,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1315,7 +1315,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1333,7 +1333,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1351,7 +1351,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse"  data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse"  data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1369,7 +1369,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1387,7 +1387,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1405,7 +1405,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1423,7 +1423,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1441,7 +1441,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)"> 
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)"> 
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1459,7 +1459,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "  ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1477,7 +1477,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1495,7 +1495,7 @@
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history " ></i>
                                         </button>
-                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this,event)">
+                                        <button class="btn btn-success btn-sm" data-toggle="collapse" data-target="#collapseThree" onclick="pacienteficha(this, event)">
                                             <i class="fas fa-user-md" style='font-size:18px'></i>
                                         </button>
                                         <button class="btn btn-danger btn-sm" onclick="eliminarAgenda(this)">
@@ -1558,7 +1558,7 @@
                             <label class="col-lg-4 col-12 col-sm-12 col-md-12">Nombre</label>
                         </div>
                         <!--primera fila de datos-->
-                        <div class="row col-lg-12 col-12 col-sm-12 justify-content-center">
+                        <div class="row col-lg-12 col-12 col-sm-12 justify-content-center primeraFila">
 
                             <div class="row col-lg-4 col-12 col-sm-12  sinmargen justify-content-center sinpadding">
                                 <label class="col-lg-12 col-12 col-sm-12 titulo">Refracción</label>
@@ -1789,9 +1789,11 @@
 //  }        
 //}
     var idfila;
+    var filaParametros;
+
     var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
             new Array("15:20", "10:24", "Diego Jara 2", "accion3", "tarjeta de debito"));
-            
+
 //    $('.nocerrar > a[data-toggle="collapse"]').click(function(e){     
 //    target = $(this).attr('href')
 //    //alert(target);
@@ -1801,29 +1803,31 @@
 //        e.stopPropagation()
 //  }
 //})
-    function RegistroPaciente(e){
+    function RegistroPaciente(e) {
         if ($(collapseTwo).hasClass('show')) {
             //alert("hola");
             $("#ModalBusqueda").modal("hide");
             e.stopPropagation();
-            
+
         }
     }
-    function pacienteficha(elemento,e){
+    function pacienteficha(elemento, e) {
 //        var valor = "#collapseThree";
 //        alert("1");
         //alert($(collapseThree).hasClass('show'));
         if ($(collapseThree).hasClass('show')) {
             //alert("hola");     
-            e.stopPropagation();        
-        }      
-        
+            e.stopPropagation();
+        }
+
         fila_id = elemento.parentNode.parentNode.id;
+        filaParametros = fila_id;
+
         var nombre = $("#" + fila_id).children("td:nth-child(3)").text();
         //alert(nombre);
         $('#fichapaciente').text("Ficha Paciente" + " : " + nombre);
     }
-    
+
     function cargaFuncion() {
         createPopover('.edit', 'Acción');
         createPopover2('.edit2', 'Pago');
@@ -1831,13 +1835,14 @@
         validarPio();
         validarAv();
         cargarTabla();
-        
+        colorTabla();
+
     }
-    
-    
+
+
     function cargarTabla()
     {
-        
+
         var table = document.getElementById("Tmain");
         if (table != null) {
             for (var i = 1; i < table.rows.length; i++) {
@@ -1853,7 +1858,7 @@
 
 
                 }
-               
+
                 table.rows[i].cells[2].onclick = function () {
                     filaid = this.parentNode.id;
                     $("#ModalBusqueda").modal();
@@ -1868,8 +1873,8 @@
     }
 
     function data_paciente() {
-        var id=filaid;
-        var hora= new Date();
+        var id = filaid;
+        var hora = new Date();
         myObj = {
             "rut": "18661818",
             "dig_verificador": "1",
@@ -1892,24 +1897,24 @@
         $('#txt_movil').val(myObj.movil);
         $('#txt_nacionalidad').val(myObj.nacionalidad);
         $('#txt_profesion').val(myObj.profesion);
-        
-        
-        
-        if(id!=null){
-            if(confirm("¿Agregar hora a la tabla?")){
+
+
+
+        if (id != null) {
+            if (confirm("¿Agregar hora a la tabla?")) {
                 //alert("a tb");
-                
-                $("#" + id).children("td:nth-child(2)").text(hora.getHours()+":"+hora.getMinutes());
-                $("#" + id).children("td:nth-child(3)").text($('#txt_nombres').val() + " "+ $('#txt_apellidop').val()+" "+$('#txt_apellidom').val());
- 
-                
-            }else{
+
+                $("#" + id).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
+                $("#" + id).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
+
+
+            } else {
                 //alert("a bd");
             }
-        }else{
+        } else {
         }
     }
-    
+
 
 
     function data_ficha() {
@@ -2158,114 +2163,116 @@
         recetacercaDisPup = $("#rcDp").val();
 
     }
-    
-    
-   function guardarid2(id){
-       idfila = id;
-       //alert("guardar2");
+
+
+    function guardarid2(id) {
+        idfila = id;
+        //alert("guardar2");
 //       alert(id);         
         createPopover2('.edit2', 'Pago');
-   } 
-   
-   function createPopover2(item, title) {
+    }
+
+    function createPopover2(item, title) {
         //alert("funcion2");              
         var $pop = $(item);
-        
-            $pop.popover({
+
+        $pop.popover({
             placement: 'bottom',
-            title: ( title || '&nbsp;' ) + ' <a class="close" href="#">&times;</a>',
+            title: (title || '&nbsp;') + ' <a class="close" href="#">&times;</a>',
             trigger: 'click',
             html: true,
             content: function () {
                 return $('#popup-content2').html();
             }
-        }).on('shown.bs.popover', function(e) {
+        }).on('shown.bs.popover', function (e) {
             //console.log('shown triggered');
             // 'aria-describedby' is the id of the current popover
             var current_popover = '#' + $(e.target).attr('aria-describedby');
             var $cur_pop = $(current_popover);
-          
-            $cur_pop.find('.close').click(function(){
+
+            $cur_pop.find('.close').click(function () {
                 //console.log('close triggered');
                 $pop.popover('hide');
             });
-          
-            $cur_pop.find('.OK').click(function(){
+
+            $cur_pop.find('.OK').click(function () {
                 //console.log('OK triggered');
                 //alert("huanaquin");
                 $pop.popover('hide');
             });
-            $cur_pop.find('.LBL').click(function(){
+            $cur_pop.find('.LBL').click(function () {
                 //console.log('OK triggered');
                 //alert(this.id);
-                text = this.id;      
-                $("#" + idfila).children("td:nth-child(5)").text(this.innerHTML); 
+                text = this.id;
+                $("#" + idfila).children("td:nth-child(5)").text(this.innerHTML);
                 //alert("lbla");
                 $pop.popover('hide');
             });
-            
-            
+
+
         });
 
         //return $pop;
-    };
-   
-   
-   function guardarid(id){
-       idfila = id;
+    }
+    ;
+
+
+    function guardarid(id) {
+        idfila = id;
 //       alert(id);
-          //alert("guardar1");
-          createPopover('.edit', 'Acción');
-   } 
-   
+        //alert("guardar1");
+        createPopover('.edit', 'Acción');
+    }
+
 //    $(function() {  
-  function createPopover(item, title) {
+    function createPopover(item, title) {
         //alert("funcion1");               
         var $pop = $(item);
-        
-            $pop.popover({
+
+        $pop.popover({
             placement: 'bottom',
-            title: ( title || '&nbsp;' ) + ' <a class="close" href="#">&times;</a>',
+            title: (title || '&nbsp;') + ' <a class="close" href="#">&times;</a>',
             trigger: 'click',
             html: true,
             content: function () {
                 //alert("111111");
                 return $('#popup-content').html();
             }
-        }).on('shown.bs.popover', function(e) {
+        }).on('shown.bs.popover', function (e) {
             //console.log('shown triggered');
             // 'aria-describedby' is the id of the current popover
             var current_popover = '#' + $(e.target).attr('aria-describedby');
             var $cur_pop = $(current_popover);
-          
-            $cur_pop.find('.close').click(function(){
+
+            $cur_pop.find('.close').click(function () {
                 //console.log('close triggered');
                 $pop.popover('hide');
             });
-          
-            $cur_pop.find('.OK').click(function(){
+
+            $cur_pop.find('.OK').click(function () {
                 //console.log('OK triggered');
                 alert("huanaquin");
                 $pop.popover('hide');
             });
-            $cur_pop.find('.LBL').click(function(){
+            $cur_pop.find('.LBL').click(function () {
                 //console.log('OK triggered');
                 //alert(this.id);  
 
-                text = this.id;      
-                $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);  
-                if(text=="p3"){
-                    $("#" + idfila).children("td:nth-child(5)").text("Sin costo");  
+                text = this.id;
+                $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);
+                if (text == "p3") {
+                    $("#" + idfila).children("td:nth-child(5)").text("Sin costo");
                 }
                 //alert("lbla");
                 $pop.popover('hide');
             });
-            
+
         });
 
         //return $pop;
-    };
-  
+    }
+    ;
+
     function eliminarAgenda(elemento)
     {
         fila_id = elemento.parentNode.parentNode.id;
@@ -2274,5 +2281,36 @@
         $("#" + fila_id).children("td:nth-child(3)").text("");
         $("#" + fila_id).children("td:nth-child(4)").text("");
         $("#" + fila_id).children("td:nth-child(5)").text("");
+        $("#" + fila_id).css("background-color", "transparent");
     }
+    function colorTabla() {
+        var table = document.getElementById("Tmain");
+        if (table != null) {
+            for (var i = 1; i < table.rows.length; i++) {
+
+
+                if (table.rows[i].cells[1].innerHTML != "" && table.rows[i].cells[2].innerHTML != "" && table.rows[i].cells[3].innerHTML != "" && table.rows[i].cells[4].innerHTML != "")
+                    table.rows[i].style.backgroundColor = " #82e0aa";
+            }
+        }
+    }
+
+    $(".primeraFila").change(function () {
+        noVacia = 0;
+//     if ($('.primeraFila :input').isEmptyObject())
+//            alert("hola");
+        $('.primeraFila :input').each(function () {
+//            $(this).val('');
+            if ($(this).val() != "")
+            {
+                noVacia = 1;
+            }
+        });
+
+        if (noVacia == 1)
+            $("#" + filaParametros).css("background-color", "#f1948a");
+        else
+            $("#" + filaParametros).css("background-color", "transparent");
+
+    });
 </script>

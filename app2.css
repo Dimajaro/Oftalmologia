@@ -34,3 +34,21 @@ and open the template in the editor.
 .classtable td{
     /*width: 100%;*/
 }
+
+
+.classtable tr td:nth-child(1)
+{
+     text-align: center !important;   
+}
+
+.classtable tr td:nth-child(2)
+{
+     text-align: center !important;   
+}
+@media only screen and (min-width: 1050px) {
+#calendar
+{
+    width: 350px !important;
+    height:250px !important;
+}
+}
