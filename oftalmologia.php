@@ -418,7 +418,7 @@
                                             <label class="control-label" for="rut"><p>Parametros :</p></label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <button class="btn btn-info btn-md btn-block"data-toggle="modal" data-target="#Mparametros"><i class='fas fa-pen'></i></button>
+                                            <button class="btn btn-info btn-md btn-block"data-toggle="modal" data-target="#Mparametros"  onclick="controlInput()"><i class='fas fa-pen'></i></button>
 
                                         </div>
                                     </div>
@@ -1625,7 +1625,7 @@
                         </div>
 
                         <!--segunda fila de datos-->
-                        <div class="row col-lg-12 col-12 col-sm-12 justify-content-center">
+                        <div class="row col-lg-12 col-12 col-sm-12 justify-content-center segundaFila">
                             <div class=" row col-lg-5 col-12  col-sm-12 sinmargen sinpadding" >
                                 <label class="col-lg-12 col-12  col-sm-12 titulo" >Receta lejos</label>
                                 <div class="col-lg-3 col-6 col-sm-6 sinmargen sinpadding">
@@ -1641,7 +1641,7 @@
                                 <div class="col-lg-3 col-6 col-sm-6 sinmargen sinpadding">
                                     <label class="col-lg-12 col-12 col-sm-12 subt">Eje</label>
                                     <input id="rlEjeOD" class="form-control col-lg-12 col-12  col-sm-12 sinpadding" placeholder="OD" type="number" step="0.01" >
-                                    <input id="rlEjeOI" class="form-control col-lg-12 col-12 col-sm-12 sinpadding" placeholder="0I" type="number"  step="0.01">
+                                    <input id="rlEjeOI" class="form-control col-lg-12 col-12 col-sm-12 sinpadding" placeholder="OI" type="number"  step="0.01">
                                     <label class="col-lg-12 subt col-2 col-sm-12 sinpaddingizquierdo">Distancia Pupilar</label>
                                 </div>
                                 <div class="col-lg-3 col-6 col-sm-6 sinmargen sinpadding">
@@ -2313,22 +2313,54 @@
         }
     }
 
-    $(".primeraFila").change(function () {
-        noVacia = 0;
-//     if ($('.primeraFila :input').isEmptyObject())
-//            alert("hola");
-        $('.primeraFila :input').each(function () {
-//            $(this).val('');
-            if ($(this).val() != "")
-            {
-                noVacia = 1;
+
+     function controlInput() {
+        if ($("#" + filaParametros).css("background-color") == "rgb(130, 224, 170)")
+        {
+            $('.segundaFila :input').each(function () {
+                $(this).prop('readonly', true);
+            });
+        }
+        if ($("#" + filaParametros).css("background-color") != "rgb(130, 224, 170)")
+        {
+            $('.segundaFila :input').each(function () {
+                $(this).prop('readonly', false);
+            });
+        }
+    }
+    
+    $(document).ready(function () {
+
+
+        $("#Mparametros").on('hide.bs.modal', function () {
+            noVacia = 0;
+            noVacia2 = 0;
+            $('.primeraFila :input').each(function () {
+                if ($(this).val() != "")
+                {
+                    noVacia = 1;
+                }
+            });
+
+            if (noVacia == 1) {
+                if ($("#" + filaParametros).css("background-color") == "rgb(130, 224, 170)")
+                    $("#" + filaParametros).css("background-color", "#f1948a");
             }
+
+
+            $('.segundaFila :input').each(function () {
+                if ($(this).val() != "")
+                {
+                    noVacia2 = 1;
+                }
+            });
+
+            if (noVacia2 == 1) {
+                if ($("#" + filaParametros).css("background-color") == "rgb(241, 148, 138)")
+                    $("#" + filaParametros).css("background-color", "#e59866");
+            }
+
         });
-
-        if (noVacia == 1)
-            $("#" + filaParametros).css("background-color", "#f1948a");
-        else
-            $("#" + filaParametros).css("background-color", "transparent");
-
     });
+
 </script>
