@@ -1789,6 +1789,7 @@
 //  }        
 //}
     var idfila;
+    var idfilaagregar;
     var filaParametros;
 
     var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
@@ -1860,7 +1861,7 @@
                 }
 
                 table.rows[i].cells[2].onclick = function () {
-                    filaid = this.parentNode.id;
+                    idfilaagregar = this.parentNode.id;
                     $("#ModalBusqueda").modal();
 
                 }
@@ -1873,7 +1874,7 @@
     }
 
     function data_paciente() {
-        var id = filaid;
+        var id = idfilaagregar;
         var hora = new Date();
         myObj = {
             "rut": "18661818",
@@ -1897,7 +1898,6 @@
         $('#txt_movil').val(myObj.movil);
         $('#txt_nacionalidad').val(myObj.nacionalidad);
         $('#txt_profesion').val(myObj.profesion);
-
 
 
         if (id != null) {
@@ -2177,12 +2177,18 @@
         var $pop = $(item);
 
         $pop.popover({
-            placement: 'bottom',
+            placement: 'left',
             title: (title || '&nbsp;') + ' <a class="close" href="#">&times;</a>',
             trigger: 'click',
             html: true,
             content: function () {
-                return $('#popup-content2').html();
+                if($("#" + idfila).children("td:nth-child(4)").text()==""){
+                    toastr.options.timeOut = 1500; // 1.5s
+                    toastr.options.positionClass = 'toast-top-left';
+                    toastr.error("No ha inicado acción!");
+                }else{
+                    return $('#popup-content2').html();
+                }
             }
         }).on('shown.bs.popover', function (e) {
             //console.log('shown triggered');
@@ -2206,6 +2212,7 @@
                 text = this.id;
                 $("#" + idfila).children("td:nth-child(5)").text(this.innerHTML);
                 //alert("lbla");
+                $("#" + idfila).css("background-color","#82e0aa");
                 $pop.popover('hide');
             });
 
@@ -2230,13 +2237,19 @@
         var $pop = $(item);
 
         $pop.popover({
-            placement: 'bottom',
+            placement: 'left',
             title: (title || '&nbsp;') + ' <a class="close" href="#">&times;</a>',
             trigger: 'click',
             html: true,
             content: function () {
                 //alert("111111");
-                return $('#popup-content').html();
+                if($("#" + idfila).children("td:nth-child(3)").text()==""){
+                    toastr.options.timeOut = 1500; // 1.5s
+                    toastr.options.positionClass = 'toast-top-left';
+                    toastr.error("No hay paciente");
+                }else{
+                    return $('#popup-content').html();
+                }
             }
         }).on('shown.bs.popover', function (e) {
             //console.log('shown triggered');
@@ -2262,7 +2275,10 @@
                 $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);
                 if (text == "p3") {
                     $("#" + idfila).children("td:nth-child(5)").text("Sin costo");
+                    $("#" + idfila).css("background-color","#82e0aa");
                 }
+                
+               
                 //alert("lbla");
                 $pop.popover('hide');
             });
@@ -2283,6 +2299,8 @@
         $("#" + fila_id).children("td:nth-child(5)").text("");
         $("#" + fila_id).css("background-color", "transparent");
     }
+    
+    
     function colorTabla() {
         var table = document.getElementById("Tmain");
         if (table != null) {
