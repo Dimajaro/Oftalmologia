@@ -168,6 +168,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Buscado de Pacientes</h4>
+                    
                     <button type="button" class="close" data-dismiss="modal">&times;</button>  
                 </div>
                 <div class="modal-body">
@@ -191,6 +192,7 @@
 
                     <!-- fin contenido tabla modal-->
                     <div class="modal-footer">
+                        <button type="button"  data-toggle="collapse" data-target="#collapseTwo" class=" btn btn-success" data-dismiss="modal" onclick="RegistroPaciente(event)">Agregar</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
@@ -248,11 +250,11 @@
                                         </div>
 
                                         <div class="col-7 col-sm-7  col-lg-4">
-                                            <input type="text" id="txt_rut" class="form-control"   placeholder="9999999" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_rut" class="form-control"   placeholder="9999999"  required > 
                                         </div>
                                         <p > - </p>
                                         <div class="col-3 col-sm-3 col-lg-3 ">
-                                            <input type="text-inline" id="txt_verificador" class="form-control" placeholder="9"   onblur="validarut()" pattern="\d|kK{1}" required >  
+                                            <input type="text-inline" id="txt_verificador" class="form-control" placeholder="9"   onblur="validarut()" pattern="\d|kK{1}" >  
                                         </div>
                                     </div>
 
@@ -261,7 +263,7 @@
                                             <label class="control-label " for="rut">Nombres :</label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <input type="text" id="txt_nombres" class="form-control"   placeholder="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_nombres" class="form-control"   placeholder="" > 
                                         </div>
                                     </div>
 
@@ -270,7 +272,7 @@
                                             <label class="control-label " for="rut">Apellido P :</label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <input type="text" id="txt_apellidop" class="form-control"   placeholder="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_apellidop" class="form-control"   placeholder=""  > 
                                         </div>
                                     </div>
 
@@ -279,7 +281,7 @@
                                             <label class="control-label " for="rut">Apellido M :</label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <input type="text" id="txt_apellidom" class="form-control"   placeholder="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_apellidom" class="form-control"   placeholder=""  > 
                                         </div>
                                     </div>
 
@@ -289,11 +291,11 @@
                                         </div>
                                         
                                         <div class="col-12 col-sm-12 col-lg-5">
-                                            <input type="date" id="txt_fechanac" class="form-control"   placeholder="" value="" pattern="\d{3,8}" required > 
+                                            <input type="date" id="txt_fechanac" class="form-control"   placeholder="" value=""  > 
                                         </div>
                                          
                                         <div class="col-12 col-sm-12 col-lg-3">
-                                            <input type="text" id="txt_edad" class="form-control"   placeholder="Edad" value="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_edad" class="form-control"   placeholder="Edad" value=""   > 
                                         </div>
                                     
                                         
@@ -304,7 +306,7 @@
                                             <label class="control-label " for="rut">Fijo :</label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <input type="text" id="txt_fijo" class="form-control"   placeholder="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_fijo" class="form-control"   placeholder="" > 
                                         </div>
                                     </div>
 
@@ -313,7 +315,7 @@
                                             <label class="control-label " for="rut">Móvil :</label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <input type="text" id="txt_movil" class="form-control"   placeholder="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_movil" class="form-control"   placeholder="" > 
                                         </div>
                                     </div>
 
@@ -322,7 +324,7 @@
                                             <label class="control-label " for="rut">Nacionalidad :</label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <input type="text" id="txt_nacionalidad" class="form-control"   placeholder="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_nacionalidad" class="form-control"   placeholder="" > 
                                         </div>
                                     </div>
 
@@ -331,7 +333,7 @@
                                             <label class="control-label " for="rut">Profesión :</label> 
                                         </div>
                                         <div class="col-12 col-sm-12 col-lg-8">
-                                            <input type="text" id="txt_profesion" class="form-control"   placeholder="" pattern="\d{3,8}" required > 
+                                            <input type="text" id="txt_profesion" class="form-control"   placeholder="" > 
                                         </div>
                                     </div>
 
@@ -476,22 +478,26 @@
                 </div> 
                 
                 <div id="popup-content" class="d-none">  
-                    <label id="p1" class="form-control LBL">Prestacion1</label>
-                    <label id="p2" class="form-control LBL">Prestacion2</label>
-                    <label id="p3" class="form-control LBL">Prestacion3</label>
-                    <label id="p4" class="form-control LBL">Prestacion4</label>
+                    <label id="p1" class="form-control LBL">Consulta</label>
+                    <label id="p2" class="form-control LBL">Urgencia</label>
+                    <label id="p3" class="form-control LBL">Control</label>
+                    <label id="p4" class="form-control LBL">Examen</label>
                 </div>
 
                 <div id="popup-content2" class="d-none">  
-                    <label id="pago1" class="form-control LBL">Pago1</label>
-                    <label id="pago2" class="form-control LBL">Pago2</label>
-                    <label id="pago3" class="form-control LBL">Pago3</label>
-                    <label id="pago4" class="form-control LBL">Pago4</label>
+                    <label id="pago1" class="form-control LBL">Fonasa -Bono papel</label>
+                    <label id="pago2" class="form-control LBL">Fonasa -Bono web</label>
+                    <label id="pago3" class="form-control LBL">Fonasa Bono</label>
+                    <label id="pago4" class="form-control LBL">Fonasa Bono</label>
+                    <label id="pago5" class="form-control LBL">Particular -Efectivo</label>
+                    <label id="pago6" class="form-control LBL">Particular -CA</label>
+                    <label id="pago7" class="form-control LBL">Isapre</label>
+                    <label id="pago8" class="form-control LBL">Sin costo</label>
                 </div>
                 
                 
                 <div class="col-12 col-sm-7 col-lg-8 ">
-                   <div class=" ">
+                   <div class="table-responsive">
                         <table id="Tmain" class="table table-bordered table-striped classtable"  style="width:940px">
                             <thead>
                                 <tr>
@@ -512,7 +518,7 @@
                                     <td style="width:84px"></td>
                                     <td style="width:228px"></td>
                                     <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover1" onclick="guardarid('hora900')"></td>
-                                    <td style="width:198px" class="edit2"  data-toggle="popover" id="showPopover57" onclick="guardarid2('hora900')"></td>
+                                    <td style="width:198px" class="edit2" data-toggle="popover" id="showPopover57" onclick="guardarid2('hora900')"></td>
                                     <td style="width:133px">
                                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#ModalHistoria">
                                             <i class="fa fa-history "></i>
@@ -544,7 +550,7 @@
                                     </td>
                                 </tr>
                                 <tr id="hora920">
-                                    <td style="width:79px"">9:20</td>
+                                    <td style="width:79px">9:20</td>
                                     <td style="width:84px"></td>
                                     <td style="width:228px"></td>
                                     <td style="width:199px" class="edit"  data-toggle="popover" id="showPopover3" onclick="guardarid('hora920')"></td>
@@ -1760,28 +1766,28 @@
 </html>
 
 <script type="text/javascript">
-    function evento(obj,especialista){
-    objeto = obj;
-    tipo_especialista = especialista;
-    //alert(tipo_especialista);
- if($("#id_paciente").text() != ''){      
-  if(tipo_especialista == 1){  
-   $(obj).popover({title: "<h4><strong>Psiquiatra</strong></h4>", 
-     content: "<div class='container'><div class='col-md-2'>\n\
-       <ul class='list-group'>\n\
-           <li onclick='reghora1(objeto,1,21);actualizar()' class='list-group-item'>Atencion Dual</li>\n\
-           <li onclick='reghora1(objeto,1,51);actualizar()' class='list-group-item'>Control Psiquiatrico</li>\n\
-      </ul></div></div>", html: true, placement: "auto"});
-  }
-    
- }else if(datospaciente()){
-       alert("Guardar datos Paciente");
-       document.getElementById("guardar").focus();
-  }else{
-       alert("Seleccionar Paciente");
-       document.getElementById("myBtn").focus();
-  }        
-}
+//    function evento(obj,especialista){
+//    objeto = obj;
+//    tipo_especialista = especialista;
+//    //alert(tipo_especialista);
+// if($("#id_paciente").text() != ''){      
+//  if(tipo_especialista == 1){  
+//   $(obj).popover({title: "<h4><strong>Psiquiatra</strong></h4>", 
+//     content: "<div class='container'><div class='col-md-2'>\n\
+//       <ul class='list-group'>\n\
+//           <li onclick='reghora1(objeto,1,21);actualizar()' class='list-group-item'>Atencion Dual</li>\n\
+//           <li onclick='reghora1(objeto,1,51);actualizar()' class='list-group-item'>Control Psiquiatrico</li>\n\
+//      </ul></div></div>", html: true, placement: "auto"});
+//  }
+//    
+// }else if(datospaciente()){
+//       alert("Guardar datos Paciente");
+//       document.getElementById("guardar").focus();
+//  }else{
+//       alert("Seleccionar Paciente");
+//       document.getElementById("myBtn").focus();
+//  }        
+//}
     var idfila;
     var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
             new Array("15:20", "10:24", "Diego Jara 2", "accion3", "tarjeta de debito"));
@@ -1795,17 +1801,22 @@
 //        e.stopPropagation()
 //  }
 //})
-    
-      
+    function RegistroPaciente(e){
+        if ($(collapseTwo).hasClass('show')) {
+            //alert("hola");
+            $("#ModalBusqueda").modal("hide");
+            e.stopPropagation();
+            
+        }
+    }
     function pacienteficha(elemento,e){
 //        var valor = "#collapseThree";
 //        alert("1");
         //alert($(collapseThree).hasClass('show'));
         if ($(collapseThree).hasClass('show')) {
-            //alert("hola");
-            e.stopPropagation()
-        }
-        
+            //alert("hola");     
+            e.stopPropagation();        
+        }      
         
         fila_id = elemento.parentNode.parentNode.id;
         var nombre = $("#" + fila_id).children("td:nth-child(3)").text();
@@ -1814,8 +1825,8 @@
     }
     
     function cargaFuncion() {
-        createPopover('.edit', 'Demo popover!');
-        createPopover2('.edit2', 'Demo popover!');
+        createPopover('.edit', 'Acción');
+        createPopover2('.edit2', 'Pago');
         mostraCheckbox();
         validarPio();
         validarAv();
@@ -1842,8 +1853,10 @@
 
 
                 }
+               
                 table.rows[i].cells[2].onclick = function () {
-                    $("#Mnombre").modal();
+                    filaid = this.parentNode.id;
+                    $("#ModalBusqueda").modal();
 
                 }
             }
@@ -1855,6 +1868,8 @@
     }
 
     function data_paciente() {
+        var id=filaid;
+        var hora= new Date();
         myObj = {
             "rut": "18661818",
             "dig_verificador": "1",
@@ -1877,8 +1892,24 @@
         $('#txt_movil').val(myObj.movil);
         $('#txt_nacionalidad').val(myObj.nacionalidad);
         $('#txt_profesion').val(myObj.profesion);
-
+        
+        
+        
+        if(id!=null){
+            if(confirm("¿Agregar hora a la tabla?")){
+                //alert("a tb");
+                
+                $("#" + id).children("td:nth-child(2)").text(hora.getHours()+":"+hora.getMinutes());
+                $("#" + id).children("td:nth-child(3)").text($('#txt_nombres').val() + " "+ $('#txt_apellidop').val()+" "+$('#txt_apellidom').val());
+ 
+                
+            }else{
+                //alert("a bd");
+            }
+        }else{
+        }
     }
+    
 
 
     function data_ficha() {
@@ -2133,7 +2164,7 @@
        idfila = id;
        //alert("guardar2");
 //       alert(id);         
-        createPopover2('.edit2', 'Demo popover!');
+        createPopover2('.edit2', 'Pago');
    } 
    
    function createPopover2(item, title) {
@@ -2168,10 +2199,11 @@
                 //console.log('OK triggered');
                 //alert(this.id);
                 text = this.id;      
-                $("#" + idfila).children("td:nth-child(5)").text(this.innerHTML);     
+                $("#" + idfila).children("td:nth-child(5)").text(this.innerHTML); 
                 //alert("lbla");
                 $pop.popover('hide');
             });
+            
             
         });
 
@@ -2183,7 +2215,7 @@
        idfila = id;
 //       alert(id);
           //alert("guardar1");
-          createPopover('.edit', 'Demo popover!');
+          createPopover('.edit', 'Acción');
    } 
    
 //    $(function() {  
@@ -2221,7 +2253,10 @@
                 //alert(this.id);  
 
                 text = this.id;      
-                $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);     
+                $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);  
+                if(text=="p3"){
+                    $("#" + idfila).children("td:nth-child(5)").text("Sin costo");  
+                }
                 //alert("lbla");
                 $pop.popover('hide');
             });
