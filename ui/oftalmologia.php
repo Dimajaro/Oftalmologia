@@ -8,28 +8,30 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-        <link rel='stylesheet' href='Vista_principal.css'>
+        
         <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.base.css" type="text/css" />
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css" type="text/css" />
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.arctic.css" type="text/css" />
-        <link rel="stylesheet" href="app2.css" type="text/css" />
-        <link rel="stylesheet" href="style.css" >
+        
+        
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
         <script type="text/javascript" src="https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"></script>
-
-        <script type="text/javascript" src="calendarspanish.js"></script>
-        <script type="text/javascript" src="app.js"></script>
+        
+        <link rel='stylesheet' href='css/Vista_principal.css'>
+        <link rel="stylesheet" href="css/app2.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" >
+        <script type="text/javascript" src="js/calendarspanish.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
 
     </head>
 
@@ -1913,6 +1915,9 @@
             }
         } else {
         }
+        
+        GuardarPaciente();
+       
     }
 
 
@@ -2362,5 +2367,41 @@
 
         });
     });
+    
+    function GuardarPaciente(){
+        
+        
+        rut = $("#txt_rut").val();
+        verificador=$("#txt_verificador").val();
+        nombre=$("#txt_nombres").val();
+        paterno=$("#txt_apellidop").val();
+        materno=$("#txt_apellidom").val();
+        fecha_nacimiento=$("#txt_fechanac").val();
+        fijo=$("#txt_fijo").val();
+        movil=$("#txt_movil").val();
+        nacionalidad=$("#txt_nacionalidad").val();
+        profesion=$("#txt_profesion").val();
+
+//        alert(fecha_nacimiento);
+        
+        ruta= "../negocio/datos.php";
+        marco= "";  
+        funcion = "minInsertPaciente";
+        
+        data = "funcion="+funcion+"&rut="+rut+"&verificador="+verificador+"&nombre="+nombre+"&paterno="+paterno+"&materno="+materno+
+                "&fecha_naciemiento="+fecha_nacimiento+"&fijo="+fijo+"&movil="+movil+"&nacionalidad="+nacionalidad+"&profesion="+profesion;
+
+        sendajax("",ruta,data);
+//       $.ajax({
+//        type: 'POST',
+//        url:"negocio/datos.php",
+//        data: data,
+//        success: function(a){
+//           alert(a); 
+//        }
+//    });
+        
+    }
+    
 
 </script>
