@@ -365,10 +365,10 @@ function insertar($rut, $verificador ,   $nombre  ,  $paterno  ,
     . "   paterno  ,   materno  ,   fecha_nacimiento  ,   fijo  ,   movil,"
     . "   nacionalidad  ,   profesion  ) "
     . "VALUES ('$rut' ,'$verificador'  ,   '$nombre'  ,  '$paterno'  ,"
-    . "  '$materno'  ,   '$fecha_macimiento'  ,  '$fijo'  ,   '$movil'  ,"
+    . "  '$materno'  ,   '$fecha_nacimiento'  ,  '$fijo'  ,   '$movil'  ,"
     . "   '$nacionalidad'  ,   '$profesion'  )");
     
-  return   mysql_insert_id();
+  
 
 }
 

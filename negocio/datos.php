@@ -10,19 +10,17 @@ if($_POST['funcion']== 'minInsertPaciente'){
    
 
 
-
-
-
 function minInsertPaciente(){
    // echo "Paciente registrado..";
     
     unset($nodo);
     $nodo = new paciente();
-    $fecha_nacimiento = cambiaf_a_mysql($_POST['fechanacimiento']);
-    $nodo->insertar($_POST['rut'],$_POST['verificador'],$_POST['nombre'],$_POST['paterno'],$_POST['materno'],$fecha_naciemiento,
+//    $fecha_nacimiento = $_POST['fecha_nacimiento'];
+    $nodo->insertar($_POST['rut'],$_POST['verificador'],$_POST['nombre'],$_POST['paterno'],$_POST['materno'],$_POST['fecha_nacimiento'],
             $_POST['fijo'],$_POST['movil'],$_POST['nacionalidad'],$_POST['profesion']);
 //    echo $lasid;
     //return $lasid;
+    echo "ok";
 }
 ?>
 

@@ -18,20 +18,25 @@ class MySQL
     
     public function MySQL(){
       if(!isset($this->conexion)){
+          
     //    $this->conexion = (mysql_connect('hoysalud.cl','hoysalud_us','@root123')) or die(mysql_error());
     //  mysql_select_db('hoysalud_bd', $this->conexion) or die(mysql_error());
-            $this->conexion = (mysql_connect('localhost','root','')) or die(mysql_error());
+        $this->conexion = (mysql_connect('localhost','root','')) or die(mysql_error());
         mysql_select_db('oftalmologia', $this->conexion) or die(mysql_error());      
-        mysql_query ("SET NAMES 'utf8'");
+//        mysql_query ("SET NAMES 'utf8'");
       }
     }
         
         public function backup_tables($tables = '*'){
-            $host= 'localhost';
-            $user='root';
-            $pass='';
-            $name='oftalmologia';
-            
+//            $host= '192.168.10.97';
+//            $user='Dhuanaco';
+//            $pass='JFV?3KcE';
+//            $name='BD_Dhuanaco_Oftalmologia';
+              $host= 'localhost';
+              $user='root';
+              $pass='';
+              $name='oftalmologia';
+             
             $link = mysql_connect($host,$user,$pass);
     mysql_select_db($name,$link);
     

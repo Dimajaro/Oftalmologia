@@ -25,43 +25,20 @@ function sendajax(marco,ruta,data){
   xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-//        alert("estoy dentro :$");
+        if((this.responseText) =="ok"){
+            alert("huanaquin");
+        }else{
+            alert("alexis");
+        }
+        
     }
   };
   xhttp.open("POST", ruta, true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xhttp.send(data); 
-//     var xhttp = new XMLHttpRequest();
-//     xhttp.onreadystatechange = function() {
-//     if (this.readyState == 4 && this.status == 200) {
-////       
-////       if(marco == "id_paciente"){
-////           if($("#id_paciente").text() == ''){
-////               //document.getElementById(marco).innerHTML = "";  
-////            document.getElementById(marco).innerHTML = this.responseText;
-////           }
-////          //document.getElementById(marco).innerHTML = this.responseText;
-////          document.getElementById("grabado").innerHTML = "Grabado";
-////          $("#grabado").addClass("alert-success");
-////       //  document.getElementById("lblregistro").class("alert-success");
-////          //calendario(3,'');
-////       } else{
-////            document.getElementById(marco).innerHTML = "";  
-////            document.getElementById(marco).innerHTML = this.responseText;
-////       }
-////         if(marco == 'compraprestacion'){
-////        //   document.getElementById(marco).textContent = this.responseText.toString();
-////       }
-////       
-////     }else 
-//////         ;
-////     };
-////     xhttp.open("POST",ruta , true);
-////     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-////     xhttp.send(data); 
- }
 
 
+}
 
 
 

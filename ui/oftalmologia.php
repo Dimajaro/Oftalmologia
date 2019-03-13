@@ -349,7 +349,7 @@
                                         </div>
 
                                         <div class="row col-4 col-sm-4 col-lg-4">
-                                            <button type="button" title="agregar" class="btn btn-success" onclick="data_paciente()">
+                                            <button type="button" title="agregar" class="btn btn-success" onclick="GuardarPaciente()">
                                                 Agregar
                                             </button>
                                         </div>
@@ -1916,7 +1916,7 @@
         } else {
         }
         
-        GuardarPaciente();
+        
        
     }
 
@@ -2377,30 +2377,36 @@
         paterno=$("#txt_apellidop").val();
         materno=$("#txt_apellidom").val();
         fecha_nacimiento=$("#txt_fechanac").val();
+//        alert($("#txt_fechanac").val());
         fijo=$("#txt_fijo").val();
         movil=$("#txt_movil").val();
         nacionalidad=$("#txt_nacionalidad").val();
         profesion=$("#txt_profesion").val();
 
 //        alert(fecha_nacimiento);
-        
+        //fecha_nacimiento="12-10-2012";
         ruta= "../negocio/datos.php";
         marco= "";  
         funcion = "minInsertPaciente";
         
         data = "funcion="+funcion+"&rut="+rut+"&verificador="+verificador+"&nombre="+nombre+"&paterno="+paterno+"&materno="+materno+
-                "&fecha_naciemiento="+fecha_nacimiento+"&fijo="+fijo+"&movil="+movil+"&nacionalidad="+nacionalidad+"&profesion="+profesion;
+                "&fecha_nacimiento="+fecha_nacimiento+"&fijo="+fijo+"&movil="+movil+"&nacionalidad="+nacionalidad+"&profesion="+profesion;
 
-        sendajax("",ruta,data);
-//       $.ajax({
-//        type: 'POST',
-//        url:"negocio/datos.php",
-//        data: data,
-//        success: function(a){
-//           alert(a); 
-//        }
-//    });
+         sendajax("",ruta,data);
         
+        if (id != null) {
+            if (confirm("¿Agregar hora a la tabla?")) {
+                //alert("a tb");
+
+                $("#" + id).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
+                $("#" + id).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
+
+
+            } else {
+                //alert("a bd");
+            }
+        } else {
+        }
     }
     
 
