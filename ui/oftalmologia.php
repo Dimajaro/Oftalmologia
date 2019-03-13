@@ -2392,21 +2392,42 @@
         data = "funcion="+funcion+"&rut="+rut+"&verificador="+verificador+"&nombre="+nombre+"&paterno="+paterno+"&materno="+materno+
                 "&fecha_nacimiento="+fecha_nacimiento+"&fijo="+fijo+"&movil="+movil+"&nacionalidad="+nacionalidad+"&profesion="+profesion;
 
-         sendajax("",ruta,data);
+        sendajaxAgregarPaciente("",ruta,data);
         
-        if (id != null) {
-            if (confirm("¿Agregar hora a la tabla?")) {
-                //alert("a tb");
+        
+    }
+    
+    function sendajaxAgregarPaciente(marco,ruta,data){
+        var xhttp;
+        var hora = new Date();
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              
+                if(this.responseText == 1){
+                    toastr.options.timeOut = 1500; // 1.5s
+                    toastr.options.positionClass = 'toast-top-left';
+                    toastr.info("Agregado correctamente");
 
-                $("#" + id).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
-                $("#" + id).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
+                    if (idfilaagregar != null) {   
+                        if (confirm("¿Agregar hora a la tabla?")) {
+                        //alert("a tb");
+                            $("#" + idfilaagregar).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
+                            $("#" + idfilaagregar).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
+                        }
+                        idfilaagregar=null;
+                    }
+                }else{
+                    toastr.options.timeOut = 1500; // 1.5s
+                    toastr.options.positionClass = 'toast-top-left';
+                    toastr.error("No se pudo registrar paciente");
+                }
 
-
-            } else {
-                //alert("a bd");
             }
-        } else {
-        }
+        };
+        xhttp.open("POST", ruta, true);
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.send(data); 
     }
     
 

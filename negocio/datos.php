@@ -20,7 +20,7 @@ function minInsertPaciente(){
             $_POST['fijo'],$_POST['movil'],$_POST['nacionalidad'],$_POST['profesion']);
 //    echo $lasid;
     //return $lasid;
-    echo "ok";
+    echo 1;
 }
 ?>
 

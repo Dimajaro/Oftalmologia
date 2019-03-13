@@ -19,26 +19,27 @@
 }); 
 
 
-function sendajax(marco,ruta,data){
-      var xhttp;
-  
-  xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        if((this.responseText) =="ok"){
-            alert("huanaquin");
-        }else{
-            alert("alexis");
-        }
-        
-    }
-  };
-  xhttp.open("POST", ruta, true);
-  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  xhttp.send(data); 
-
-
-}
+//function sendajax(marco,ruta,data){
+//      var xhttp;
+//  
+//  xhttp = new XMLHttpRequest();
+//  xhttp.onreadystatechange = function() {
+//    if (this.readyState == 4 && this.status == 200) {
+//        alert(this.responseText);
+//        if(this.responseText == 1){
+//            return 1;
+//        }else{
+//            alert("alexis");
+//        }
+//        
+//    }
+//  };
+//  xhttp.open("POST", ruta, true);
+//  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//  xhttp.send(data); 
+//
+//
+//}
 
 
 
