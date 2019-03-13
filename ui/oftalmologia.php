@@ -8,13 +8,13 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-        
+
         <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.base.css" type="text/css" />
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css" type="text/css" />
         <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.arctic.css" type="text/css" />
-        
-        
+
+
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
@@ -26,7 +26,7 @@
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
         <script type="text/javascript" src="https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"></script>
-        
+
         <link rel='stylesheet' href='css/Vista_principal.css'>
         <link rel="stylesheet" href="css/app2.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" >
@@ -532,6 +532,7 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
                                 </tr>
                                 <tr id="hora910">
                                     <td style="width:79px">9:10</td>
@@ -550,6 +551,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora920">
                                     <td style="width:79px">9:20</td>
@@ -568,6 +571,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora930">
                                     <td style="width:79px">9:30</td>
@@ -586,6 +591,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora940">
                                     <td style="width:79px">9:40</td>
@@ -604,6 +611,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora950">
                                     <td style="width:79px">9:50</td>
@@ -622,6 +631,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1000">
                                     <td style="width:79px">10:00</td>
@@ -640,6 +651,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1010">
                                     <td style="width:79px">10:10</td>
@@ -658,6 +671,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1020">
                                     <td style="width:79px">10:20</td>
@@ -676,6 +691,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1030">
                                     <td style="width:79px">10:30</td>
@@ -694,6 +711,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1040">
                                     <td style="width:79px">10:40</td>
@@ -712,6 +731,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>                               
                                 <tr id="hora1050">
                                     <td style="width:79px">10:50</td>
@@ -730,6 +751,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1100">
                                     <td style="width:79px">11:00</td>
@@ -748,6 +771,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1110">
                                     <td style="width:79px">11:10</td>
@@ -766,6 +791,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1120">
                                     <td style="width:79px">11:20</td>
@@ -784,6 +811,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1130">
                                     <td style="width:79px">11:30</td>
@@ -802,6 +831,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1140">
                                     <td style="width:79px">11:40</td>
@@ -820,6 +851,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1150">
                                     <td style="width:79px">11:50</td>
@@ -838,6 +871,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1200">
                                     <td style="width:79px">12:00</td>
@@ -856,6 +891,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1210">
                                     <td style="width:79px">12:10</td>
@@ -874,6 +911,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1220">
                                     <td style="width:79px">12:20</td>
@@ -892,6 +931,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1230"> 
                                     <td style="width:79px">12:30</td>
@@ -910,6 +951,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1240">
                                     <td style="width:79px">12:40</td>
@@ -928,6 +971,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1250">
                                     <td style="width:79px">12:50</td>
@@ -946,6 +991,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1300">
                                     <td style="width:79px">13:00</td>
@@ -964,6 +1011,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1310">
                                     <td style="width:79px">13:10</td>
@@ -982,6 +1031,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1320">
                                     <td style="width:79px">13:20</td>
@@ -1000,6 +1051,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1330">
                                     <td style="width:79px">13:30</td>
@@ -1018,6 +1071,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1340">
                                     <td style="width:79px">13:40</td>
@@ -1036,6 +1091,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1350">
                                     <td style="width:79px">13:50</td>
@@ -1054,6 +1111,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1400">
                                     <td style="width:79px">14:00</td>
@@ -1072,6 +1131,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1410">
                                     <td style="width:79px">14:10</td>
@@ -1090,6 +1151,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1420">
                                     <td style="width:79px">14:20</td>
@@ -1108,6 +1171,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1430">
                                     <td style="width:79px">14:30</td>
@@ -1126,6 +1191,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1440">
                                     <td style="width:79px">14:40</td>
@@ -1144,6 +1211,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1450">
                                     <td style="width:79px">14:50</td>
@@ -1162,6 +1231,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1500">
                                     <td style="width:79px">15:00</td>
@@ -1180,6 +1251,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1510">
                                     <td style="width:79px">15:10</td>
@@ -1198,6 +1271,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1520">
                                     <td style="width:79px">15:20</td>
@@ -1216,6 +1291,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1530">
                                     <td style="width:79px">15:30</td>
@@ -1234,6 +1311,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1540">
                                     <td style="width:79px"> 15:40</td>
@@ -1252,6 +1331,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1550">
                                     <td style="width:79px">15:50</td>
@@ -1270,6 +1351,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1600">
                                     <td style="width:79px">16:00</td>
@@ -1288,6 +1371,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1610">
                                     <td style="width:79px">16:10</td>
@@ -1306,6 +1391,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1620">
                                     <td style="width:79px">16:20</td>
@@ -1324,6 +1411,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1630">
                                     <td style="width:79px">16:30</td>
@@ -1342,6 +1431,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1640">
                                     <td style="width:79px">16:40</td>
@@ -1360,6 +1451,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1650">
                                     <td style="width:79px">16:50</td>
@@ -1396,6 +1489,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1710">
                                     <td style="width:79px">17:10</td>
@@ -1414,6 +1509,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1720">
                                     <td style="width:79px">17:20</td>
@@ -1432,6 +1529,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1730">
                                     <td style="width:79px">17:30</td>
@@ -1450,6 +1549,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1740">
                                     <td style="width:79px">17:40</td>
@@ -1468,6 +1569,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1750">
                                     <td style="width:79px">17:50</td>
@@ -1486,6 +1589,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                                 <tr id="hora1800">
                                     <td style="width:79px">18:00</td>
@@ -1504,6 +1609,8 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
+
                                 </tr>
                             </tbody>
 
@@ -1698,42 +1805,77 @@
                                 <div id="boxDiv" class="col-lg-12 form-check col-12 inDiv" style=" height: 175px; overflow-y: scroll;">
 
                                     <label class="form-check-label col-lg-12 col-12 chkoptico">
-                                        <input type="checkbox" class="form-check-input" value="">Organico 
+                                        <input id="chkOrg" type="checkbox" class="form-check-input" >Organico 
                                     </label>
                                     <label class="form-check-label col-lg-12 col-12 chkoptico">
-                                        <input type="checkbox" class="form-check-input" value="">Vidrio 
+                                        <input id="chkVid" type="checkbox" class="form-check-input" >Vidrio 
                                     </label>
                                     <label class="form-check-label col-lg-12 col-12 chkoptico">
-                                        <input type="checkbox" class="form-check-input" value="">Policarbonato 
+                                        <input id="chkPoli" type="checkbox" class="form-check-input" >Policarbonato 
                                     </label>
                                     <label class="form-check-label col-lg-12 col-12 chkoptico">
-                                        <input type="checkbox" class="form-check-input" value="">UV
+                                        <input id="chkUv" type="checkbox" class="form-check-input" >UV
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkRefle" type="checkbox" class="form-check-input" >Antireflex 
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkFoto" type="checkbox" class="form-check-input" >Fotocromatico 
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkPola" type="checkbox" class="form-check-input" >Polarizado 
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkRoad" type="checkbox" class="form-check-input" >Road
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkFil" type="checkbox" class="form-check-input" >Filtro Azul
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkRaya" type="checkbox" class="form-check-input" >Antirayas
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkLent" type="checkbox" class="form-check-input" >2 Lentes
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkBifo" type="checkbox" class="form-check-input" >Bifocales
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkMult" type="checkbox" class="form-check-input" >Multifocales
+                                    </label>
+                                    <label class="form-check-label col-lg-12 col-12 chkoptico">
+                                        <input id="chkIndi" type="checkbox" class="form-check-input" >Alto Indice
                                     </label>
 
 
+
                                     <label class="form-check-label col-12 col-lg-12 chkcontacto">
-                                        <input type="checkbox" class="form-check-input" value="">Blando
+                                        <input id="chkBlan" type="checkbox" class="form-check-input" >Blando
                                     </label>
                                     <label class="form-check-label col-12 col-lg-12 chkcontacto">
-                                        <input type="checkbox" class="form-check-input" value="">Desechables
+                                        <input id="chkTori" type="checkbox" class="form-check-input" >Toricos
                                     </label>
                                     <label class="form-check-label col-12 col-lg-12 chkcontacto">
-                                        <input type="checkbox" class="form-check-input" value="">Uso Prolongado
+                                        <input id="chkDese" type="checkbox" class="form-check-input" >Desechables
                                     </label>
                                     <label class="form-check-label col-12 col-lg-12 chkcontacto">
-                                        <input type="checkbox" class="form-check-input" value="">multifocal
+                                        <input id="chkPro" type="checkbox" class="form-check-input" >Uso Prolongado
                                     </label>
+                                    <label class="form-check-label col-12 col-lg-12 chkcontacto">
+                                        <input id="chkMulti" type="checkbox" class="form-check-input" >Multifocal
+                                    </label>
+
                                 </div>
                             </div> 
                             <div class=" row col-lg-3  col-12 align-self-center sinmargen">
                                 <div class="form-check col-lg-12 col-6 inDiv">
                                     <label class="form-check-label col-12 col-lg-12" >
-                                        <input id="radioOptico" type="radio" class="form-check-input" onchange="mostraCheckbox()" name="optradio">Lentes Opticos
+                                        <input id="rdoOptico" type="radio" class="form-check-input" onchange="mostraCheckbox()" name="optradio" checked="">Lentes Opticos
                                     </label>
                                 </div>
                                 <div class="form-check col-lg-12 col-6 inDiv">
                                     <label class="form-check-label col-12 col-lg-12" >
-                                        <input id="radioContacto" type="radio" class="form-check-input" onchange="mostraCheckbox()" name="optradio">Lentes de Contacto
+                                        <input id="rdoContacto" type="radio" class="form-check-input" onchange="mostraCheckbox()" name="optradio">Lentes de Contacto
                                     </label>
                                 </div>
                             </div>
@@ -1915,9 +2057,9 @@
             }
         } else {
         }
-        
-        
-       
+
+
+
     }
 
 
@@ -2055,7 +2197,7 @@
     function mostraCheckbox()
     {
 
-        if ($("#radioOptico").prop('checked'))
+        if ($("#rdoOptico").prop('checked'))
         {
             $('.chkoptico').show();
             $('.chkcontacto').hide();
@@ -2167,6 +2309,33 @@
         recetacercaJOI = $("#rcJOI").val();
         recetacercaDisPup = $("#rcDp").val();
 
+        opticoOrganico = $("#chkOrg").prop('checked');
+        opticoVidrio = $("#chkVid").prop('checked');
+        opticoPoli = $("#chkPoli").prop('checked');
+        opticoUv = $("#chkUv").prop('checked');
+        opticoReflex = $("#chkRefle").prop('checked');
+        opticoFotocro = $("#chkFoto").prop('checked');
+        opticoPolari = $("#chkPola").prop('checked');
+        opticoRoad = $("#chkRoad").prop('checked');
+        opticoFiltro = $("#chkFil").prop('checked');
+        opticoRayas = $("#chkRaya").prop('checked');
+        opticoReflex = $("#chkRefle").prop('checked');
+        opticoDosLen = $("#chkLent").prop('checked');
+        opticoBifocal = $("#chkBifo").prop('checked');
+        opticoMultifo = $("#chkMult").prop('checked');
+        opticoIndice = $("#chkIndi").prop('checked');
+
+        contactoBlando = $("#chkBlan").prop('checked');
+        contactoTorico = $("#chkTori").prop('checked');
+        contactoDesecha = $("#chkDese").prop('checked');
+        contactoProlon = $("#chkPro").prop('checked');
+        contactoMultifo = $("#chkMulti").prop('checked');
+
+        radioOptico = $("#rdoOptico").prop('checked');
+        radioContacto = $("#rdoContacto").prop('checked');
+
+        recetaLejos = $("#rlChk").prop('checked');
+        recetaCerca = $("#rcChk").prop('checked');
     }
 
 
@@ -2187,11 +2356,11 @@
             trigger: 'click',
             html: true,
             content: function () {
-                if($("#" + idfila).children("td:nth-child(4)").text()==""){
+                if ($("#" + idfila).children("td:nth-child(4)").text() == "") {
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
                     toastr.error("No ha inicado acción!");
-                }else{
+                } else {
                     return $('#popup-content2').html();
                 }
             }
@@ -2217,7 +2386,7 @@
                 text = this.id;
                 $("#" + idfila).children("td:nth-child(5)").text(this.innerHTML);
                 //alert("lbla");
-                $("#" + idfila).css("background-color","#82e0aa");
+                $("#" + idfila).css("background-color", "#82e0aa");
                 $pop.popover('hide');
             });
 
@@ -2248,11 +2417,11 @@
             html: true,
             content: function () {
                 //alert("111111");
-                if($("#" + idfila).children("td:nth-child(3)").text()==""){
+                if ($("#" + idfila).children("td:nth-child(3)").text() == "") {
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
                     toastr.error("No hay paciente");
-                }else{
+                } else {
                     return $('#popup-content').html();
                 }
             }
@@ -2280,10 +2449,10 @@
                 $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);
                 if (text == "p3") {
                     $("#" + idfila).children("td:nth-child(5)").text("Sin costo");
-                    $("#" + idfila).css("background-color","#82e0aa");
+                    $("#" + idfila).css("background-color", "#82e0aa");
                 }
-                
-               
+
+
                 //alert("lbla");
                 $pop.popover('hide');
             });
@@ -2304,8 +2473,8 @@
         $("#" + fila_id).children("td:nth-child(5)").text("");
         $("#" + fila_id).css("background-color", "transparent");
     }
-    
-    
+
+
     function colorTabla() {
         var table = document.getElementById("Tmain");
         if (table != null) {
@@ -2319,7 +2488,7 @@
     }
 
 
-     function controlInput() {
+    function controlInput() {
         if ($("#" + filaParametros).css("background-color") == "rgb(130, 224, 170)")
         {
             $('.segundaFila :input').each(function () {
@@ -2333,7 +2502,7 @@
             });
         }
     }
-    
+
     $(document).ready(function () {
 
 
@@ -2367,57 +2536,57 @@
 
         });
     });
-    
-    function GuardarPaciente(){
-        
-        
+
+    function GuardarPaciente() {
+
+
         rut = $("#txt_rut").val();
-        verificador=$("#txt_verificador").val();
-        nombre=$("#txt_nombres").val();
-        paterno=$("#txt_apellidop").val();
-        materno=$("#txt_apellidom").val();
-        fecha_nacimiento=$("#txt_fechanac").val();
+        verificador = $("#txt_verificador").val();
+        nombre = $("#txt_nombres").val();
+        paterno = $("#txt_apellidop").val();
+        materno = $("#txt_apellidom").val();
+        fecha_nacimiento = $("#txt_fechanac").val();
 //        alert($("#txt_fechanac").val());
-        fijo=$("#txt_fijo").val();
-        movil=$("#txt_movil").val();
-        nacionalidad=$("#txt_nacionalidad").val();
-        profesion=$("#txt_profesion").val();
+        fijo = $("#txt_fijo").val();
+        movil = $("#txt_movil").val();
+        nacionalidad = $("#txt_nacionalidad").val();
+        profesion = $("#txt_profesion").val();
 
 //        alert(fecha_nacimiento);
         //fecha_nacimiento="12-10-2012";
-        ruta= "../negocio/datos.php";
-          
-        funcion = "minInsertPaciente";
-        
-        data = "funcion="+funcion+"&rut="+rut+"&verificador="+verificador+"&nombre="+nombre+"&paterno="+paterno+"&materno="+materno+
-                "&fecha_nacimiento="+fecha_nacimiento+"&fijo="+fijo+"&movil="+movil+"&nacionalidad="+nacionalidad+"&profesion="+profesion;
+        ruta = "../negocio/datos.php";
 
-        sendajaxAgregarPaciente(ruta,data);
-        
-        
+        funcion = "minInsertPaciente";
+
+        data = "funcion=" + funcion + "&rut=" + rut + "&verificador=" + verificador + "&nombre=" + nombre + "&paterno=" + paterno + "&materno=" + materno +
+                "&fecha_nacimiento=" + fecha_nacimiento + "&fijo=" + fijo + "&movil=" + movil + "&nacionalidad=" + nacionalidad + "&profesion=" + profesion;
+
+        sendajaxAgregarPaciente(ruta, data);
+
+
     }
-    
-    function sendajaxAgregarPaciente(ruta,data){
+
+    function sendajaxAgregarPaciente(ruta, data) {
         var xhttp;
         var hora = new Date();
         xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
+        xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 alert(this.responseText);
-                if(this.responseText == 1){
+                if (this.responseText == 1) {
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
                     toastr.info("Agregado correctamente");
 
-                    if (idfilaagregar != null) {   
+                    if (idfilaagregar != null) {
                         if (confirm("¿Agregar hora a la tabla?")) {
-                        //alert("a tb");                      
+                            //alert("a tb");                      
                             $("#" + idfilaagregar).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
                             $("#" + idfilaagregar).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
                         }
-                        idfilaagregar=null;
+                        idfilaagregar = null;
                     }
-                    
+
                     $('#txt_rut').val("");
                     $('#txt_verificador').val("");
                     $('#txt_nombres').val("");
@@ -2428,7 +2597,7 @@
                     $('#txt_movil').val("");
                     $('#txt_nacionalidad').val("");
                     $('#txt_profesion').val("");
-                }else{
+                } else {
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
                     toastr.error("No se pudo registrar paciente");
@@ -2438,9 +2607,9 @@
         };
         xhttp.open("POST", ruta, true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.send(data); 
+        xhttp.send(data);
     }
-    
+
 //    function sendajaxAgregarPaciente(){
 //        var xhttp;
 //        ruta= "../negocio/datos.php";
@@ -2460,6 +2629,6 @@
 //        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 //        xhttp.send(data); 
 //    }
-    
+
 
 </script>
