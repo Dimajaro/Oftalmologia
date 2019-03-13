@@ -5,7 +5,7 @@ require_once('funciones_adicionales.php');
 if($_POST['funcion']== 'minInsertPaciente'){
      minInsertPaciente();
 }else{
-    echo("else");   
+//    echo("else");   
 }
    
 
@@ -15,12 +15,16 @@ function minInsertPaciente(){
     
     unset($nodo);
     $nodo = new paciente();
-//    $fecha_nacimiento = $_POST['fecha_nacimiento'];
-    $nodo->insertar($_POST['rut'],$_POST['verificador'],$_POST['nombre'],$_POST['paterno'],$_POST['materno'],$_POST['fecha_nacimiento'],
-            $_POST['fijo'],$_POST['movil'],$_POST['nacionalidad'],$_POST['profesion']);
-//    echo $lasid;
+////    $fecha_nacimiento = $_POST['fecha_nacimiento'];
+//    $nodo->insertar($_POST['rut'],$_POST['verificador'],$_POST['nombre'],$_POST['paterno'],$_POST['materno'],$_POST['fecha_nacimiento'],
+//            $_POST['fijo'],$_POST['movil'],$_POST['nacionalidad'],$_POST['profesion']);
+////    echo $lasid;
     //return $lasid;
-    echo 1;
+    $resp = $nodo->buscarId();
+    echo $resp;
+//    echo $id;
+//    echo $id;
+    //echo 1;
 }
 ?>
 

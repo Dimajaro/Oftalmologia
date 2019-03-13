@@ -367,8 +367,6 @@ function insertar($rut, $verificador ,   $nombre  ,  $paterno  ,
     . "VALUES ('$rut' ,'$verificador'  ,   '$nombre'  ,  '$paterno'  ,"
     . "  '$materno'  ,   '$fecha_nacimiento'  ,  '$fijo'  ,   '$movil'  ,"
     . "   '$nacionalidad'  ,   '$profesion'  )");
-    
-  
 
 }
 
@@ -390,5 +388,19 @@ function munactualizapaciente( $identificador, $tipoIdentificador  ,   $nombrePa
      
 
 }
+
+
+function buscarId(){
+    $my = new MySQL();
+    $resp = $my -> consulta("SELECT Id from paciente where Id=10");   
+//    echo $resp;
+    return mysql_result($resp,0);
+}
+
+
+
+
+
+
 
 }

@@ -252,7 +252,7 @@
                                         </div>
 
                                         <div class="col-7 col-sm-7  col-lg-4">
-                                            <input type="text" id="txt_rut" class="form-control"   placeholder="9999999"  required > 
+                                            <input type="text" id="txt_rut" class="form-control"   placeholder="9999999" > 
                                         </div>
                                         <p > - </p>
                                         <div class="col-3 col-sm-3 col-lg-3 ">
@@ -2386,24 +2386,24 @@
 //        alert(fecha_nacimiento);
         //fecha_nacimiento="12-10-2012";
         ruta= "../negocio/datos.php";
-        marco= "";  
+          
         funcion = "minInsertPaciente";
         
         data = "funcion="+funcion+"&rut="+rut+"&verificador="+verificador+"&nombre="+nombre+"&paterno="+paterno+"&materno="+materno+
                 "&fecha_nacimiento="+fecha_nacimiento+"&fijo="+fijo+"&movil="+movil+"&nacionalidad="+nacionalidad+"&profesion="+profesion;
 
-        sendajaxAgregarPaciente("",ruta,data);
+        sendajaxAgregarPaciente(ruta,data);
         
         
     }
     
-    function sendajaxAgregarPaciente(marco,ruta,data){
+    function sendajaxAgregarPaciente(ruta,data){
         var xhttp;
         var hora = new Date();
         xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-              
+                alert(this.responseText);
                 if(this.responseText == 1){
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
@@ -2411,12 +2411,23 @@
 
                     if (idfilaagregar != null) {   
                         if (confirm("¿Agregar hora a la tabla?")) {
-                        //alert("a tb");
+                        //alert("a tb");                      
                             $("#" + idfilaagregar).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
                             $("#" + idfilaagregar).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
                         }
                         idfilaagregar=null;
                     }
+                    
+                    $('#txt_rut').val("");
+                    $('#txt_verificador').val("");
+                    $('#txt_nombres').val("");
+                    $('#txt_apellidop').val("");
+                    $('#txt_apellidom').val("");
+                    $('#txt_fechanac').val("");
+                    $('#txt_fijo').val("");
+                    $('#txt_movil').val("");
+                    $('#txt_nacionalidad').val("");
+                    $('#txt_profesion').val("");
                 }else{
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
@@ -2429,6 +2440,26 @@
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhttp.send(data); 
     }
+    
+//    function sendajaxAgregarPaciente(){
+//        var xhttp;
+//        ruta= "../negocio/datos.php";
+//          
+//        funcion = "IdPaciente";
+//        
+//        data = "funcion="+funcion;
+//        
+//        var hora = new Date();
+//        xhttp = new XMLHttpRequest();
+//        xhttp.onreadystatechange = function() {
+//            if (this.readyState == 4 && this.status == 200) {
+//   
+//            }
+//        };
+//        xhttp.open("POST", ruta, true);
+//        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//        xhttp.send(data); 
+//    }
     
 
 </script>
