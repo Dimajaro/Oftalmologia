@@ -2573,7 +2573,7 @@
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 alert(this.responseText);
-                if (this.responseText == 1) {
+                if (this.responseText != "error bd") {
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
                     toastr.info("Agregado correctamente");
@@ -2583,6 +2583,9 @@
                             //alert("a tb");                      
                             $("#" + idfilaagregar).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
                             $("#" + idfilaagregar).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
+                            $("#" + idfilaagregar).children("td:nth-child(7)").text(this.responseText);
+                            //alert($("#" + idfilaagregar).children("td:nth-child(7)").val());
+                            
                         }
                         idfilaagregar = null;
                     }

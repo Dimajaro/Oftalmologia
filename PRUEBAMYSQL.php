@@ -2,7 +2,7 @@
 require_once 'conexion.php';
 
  $my = new MySQL();
-    $resp = $my -> consulta("SELECT Id from paciente where Id=10");   
+    $resp = $my -> consulta("SELECT Id from paciente where Id=55");   
     echo mysql_result($resp,0);
    
 /* 

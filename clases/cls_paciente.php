@@ -390,9 +390,9 @@ function munactualizapaciente( $identificador, $tipoIdentificador  ,   $nombrePa
 }
 
 
-function buscarId(){
+function buscarId($rut){
     $my = new MySQL();
-    $resp = $my -> consulta("SELECT Id from paciente where Id=10");   
+    $resp = $my -> consulta("SELECT Id from paciente where rut = '$rut'");   
 //    echo $resp;
     return mysql_result($resp,0);
 }

@@ -94,7 +94,7 @@ class MySQL
         public function consulta($consulta){
         $resultado = mysql_query($consulta, $this->conexion);
         if(!$resultado){
-          echo 'Error en la Base de datos: '. mysql_error();
+          echo "error bd";
           exit;
         }       
         return $resultado;
