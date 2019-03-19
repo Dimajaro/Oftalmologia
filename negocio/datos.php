@@ -1,12 +1,13 @@
 <?php
 require_once('../clases/cls_paciente.php');
+require_once('../clases/cls_atencion.php');
 require_once('funciones_adicionales.php');
 //echo "datos.php"
-if($_POST['funcion']== 'minInsertPaciente'){
+
+if($_POST['funcion']== 'minInsertPaciente')
      minInsertPaciente();
-}else{
-//    echo("else");   
-}
+if($_POST['funcion']== 'cargaTabla')
+    buscarPacienteFecha();
    
 
 
@@ -22,6 +23,16 @@ function minInsertPaciente(){
     $resp = $nodo->buscarId($_POST['rut']);
     echo $resp;
 
+}
+
+function buscarPacienteFecha(){
+    unset($nodo);
+    $nodo = new atencion();
+    $nodo->cargaTabla();
+    $resp = $nodo->getArrPacientes();
+    
+    
+    echo json_encode($resp);
 }
 ?>
 

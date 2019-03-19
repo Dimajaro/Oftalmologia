@@ -1932,6 +1932,7 @@
 //       document.getElementById("myBtn").focus();
 //  }        
 //}
+
     var idfila;
     var idfilaagregar;
     var filaParametros;
@@ -1981,6 +1982,7 @@
         validarAv();
         cargarTabla();
         colorTabla();
+        sendajaxCargarTabla();
 
     }
 
@@ -2572,7 +2574,7 @@
         xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
-                alert(this.responseText);
+                //alert(this.responseText);
                 if (this.responseText != "error bd") {
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
@@ -2584,7 +2586,7 @@
                             $("#" + idfilaagregar).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
                             $("#" + idfilaagregar).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
                             $("#" + idfilaagregar).children("td:nth-child(7)").text(this.responseText);
-                            //alert($("#" + idfilaagregar).children("td:nth-child(7)").val());
+                            //alert($("#" + idfilaagregar).children("td:nth-child(7)").text());
                             
                         }
                         idfilaagregar = null;
@@ -2613,6 +2615,26 @@
         xhttp.send(data);
     }
 
+
+    function sendajaxCargarTabla() {
+        ruta = "../negocio/datos.php";
+        funcion = "cargaTabla";
+        data = "funcion=" + funcion;
+        var xhttp;     
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                //alert(this.responseText);
+              
+                var myObj = JSON.parse(this.responseText);
+                console.log(myObj);
+
+            }
+        };
+        xhttp.open("GET", ruta, true);
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.send();
+    }
 //    function sendajaxAgregarPaciente(){
 //        var xhttp;
 //        ruta= "../negocio/datos.php";
