@@ -1938,8 +1938,8 @@
     var idfilaagregar;
     var filaParametros;
 
-    var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
-            new Array("15:20", "10:24", "Diego Jara 2", "accion3", "tarjeta de debito"));
+//    var prueba = new Array(new Array("9:20", "9:54", "Diego Jara", "accion1", "tarjeta de credito"),
+//            new Array("15:20", "10:24", "Diego Jara 2", "accion3", "tarjeta de debito"));
 
 //    $('.nocerrar > a[data-toggle="collapse"]').click(function(e){     
 //    target = $(this).attr('href')
@@ -1992,40 +1992,43 @@
         mostraCheckbox();
         validarPio();
         validarAv();
-        cargarTabla();
-        colorTabla();
-
+        //cargarTabla();
+        colorTabla();       
+     
 
     }
-
-
-    function cargarTabla()
+    
+    $(document).ready(function()
     {
-
-        var table = document.getElementById("Tmain");
-        if (table != null) {
-            for (var i = 1; i < table.rows.length; i++) {
-                for (var j = 0; j < prueba.length; j++) {
-
-                    if (table.rows[i].cells[0].innerHTML == prueba[j][0])
-                    {
-                        table.rows[i].cells[1].innerHTML = prueba[j][1];
-                        table.rows[i].cells[2].innerHTML = prueba[j][2];
-                        table.rows[i].cells[3].innerHTML = prueba[j][3];
-                        table.rows[i].cells[4].innerHTML = prueba[j][4];
-                    }
-
-
-                }
-
-                table.rows[i].cells[2].onclick = function () {
-                    idfilaagregar = this.parentNode.id;
-                    $("#ModalBusqueda").modal();
-
-                }
-            }
-        }
-    }
+           $('#calendar').jqxCalendar('today');
+    });
+//    function cargarTabla()
+//    {
+//
+//        var table = document.getElementById("Tmain");
+//        if (table != null) {
+//            for (var i = 1; i < table.rows.length; i++) {
+//                for (var j = 0; j < prueba.length; j++) {
+//
+//                    if (table.rows[i].cells[0].innerHTML == prueba[j][0])
+//                    {
+//                        table.rows[i].cells[1].innerHTML = prueba[j][1];
+//                        table.rows[i].cells[2].innerHTML = prueba[j][2];
+//                        table.rows[i].cells[3].innerHTML = prueba[j][3];
+//                        table.rows[i].cells[4].innerHTML = prueba[j][4];
+//                    }
+//
+//
+//                }
+//
+//                table.rows[i].cells[2].onclick = function () {
+//                    idfilaagregar = this.parentNode.id;
+//                    $("#ModalBusqueda").modal();
+//
+//                }
+//            }
+//        }
+//    }
     function modalDoc()
     {
         $('#Mparametros').modal();
@@ -2633,6 +2636,9 @@
 
         sendajaxCargarTabla(date4);
     });
+    
+    
+    
 
     function sendajaxCargarTabla(fecha) {
         //alert(fecha);
@@ -2664,6 +2670,15 @@
                                     table.rows[j].cells[3].innerHTML = myObj[i]['accion'];
                                     table.rows[j].cells[4].innerHTML = myObj[i]['pago'];
                                     table.rows[j].cells[6].innerHTML = myObj[i]['id_paciente'];
+                                    if(myObj[i]['estado'] == 0)
+                                        table.rows[j].style.backgroundColor = " transparent";
+                                    if(myObj[i]['estado'] == 1)
+                                        table.rows[j].style.backgroundColor = "#5DADE2";//azul
+                                    if(myObj[i]['estado'] == 2)
+                                        
+                                        table.rows[j].style.backgroundColor = "#82e0aa";//verde
+                                    if(myObj[i]['estado'] == 3)
+                                        table.rows[j].style.backgroundColor = "#DC7633";//cafe
                                 }
 
                             }

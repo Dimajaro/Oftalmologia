@@ -80,7 +80,7 @@ class atencion {
    function cargaTabla($fecha){
     $my = new MySQL();
     
-    $sql = $my->consulta("select a.accion, a.hora, a.id_paciente, a.llegada, a.pago, p.nombre, p.paterno, p.materno from atencion as a join paciente as p "
+    $sql = $my->consulta("select a.accion, a.hora, a.id_paciente, a.llegada, a.pago, a.estado, p.nombre, p.paterno, p.materno from atencion as a join paciente as p "
             . "on a.id_paciente = p.id where fecha = '$fecha'"); 
  
     $i=0;
@@ -92,7 +92,8 @@ class atencion {
         $this->arrPacientes[$i]['accion'] = $datos['accion'];
         $this->arrPacientes[$i]['nombre'] = $datos['nombre'];
         $this->arrPacientes[$i]['paterno'] = $datos['paterno'];
-        $this->arrPacientes[$i]['materno'] = $datos['materno'];    
+        $this->arrPacientes[$i]['materno'] = $datos['materno'];   
+        $this->arrPacientes[$i]['estado'] = $datos['estado'];  
 
         $i++;
     }
