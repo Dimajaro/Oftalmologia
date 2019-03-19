@@ -2631,9 +2631,9 @@
 
             }
         };
-        xhttp.open("GET", ruta, true);
+        xhttp.open("POST", ruta, true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.send();
+        xhttp.send(data);
     }
 //    function sendajaxAgregarPaciente(){
 //        var xhttp;

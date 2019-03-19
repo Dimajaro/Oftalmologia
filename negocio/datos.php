@@ -6,9 +6,9 @@ require_once('funciones_adicionales.php');
 
 if($_POST['funcion']== 'minInsertPaciente')
      minInsertPaciente();
-if($_POST['funcion']== 'cargaTabla')
+if($_POST['funcion']== 'cargaTabla'){ 
     buscarPacienteFecha();
-   
+}  
 
 
 function minInsertPaciente(){
@@ -25,13 +25,12 @@ function minInsertPaciente(){
 
 }
 
-function buscarPacienteFecha(){
+function buscarPacienteFecha(){ 
     unset($nodo);
     $nodo = new atencion();
     $nodo->cargaTabla();
     $resp = $nodo->getArrPacientes();
-    
-    
+
     echo json_encode($resp);
 }
 ?>
