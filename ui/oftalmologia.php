@@ -469,7 +469,7 @@
                                         <div id="calendar" style="">
                                         </div>
                                         <div id="log"></div>
-                                       
+
                                     </center>  
                                 </div>
                             </div>
@@ -1932,7 +1932,7 @@
 //       document.getElementById("myBtn").focus();
 //  }        
 //}
-     
+
     var idfila;
     var idfilaagregar;
     var filaParametros;
@@ -1993,7 +1993,7 @@
         validarAv();
         cargarTabla();
         colorTabla();
-        
+
 
     }
 
@@ -2596,7 +2596,7 @@
                             $("#" + idfilaagregar).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
                             $("#" + idfilaagregar).children("td:nth-child(7)").text(this.responseText);
                             //alert($("#" + idfilaagregar).children("td:nth-child(7)").text());
-                            
+
                         }
                         idfilaagregar = null;
                     }
@@ -2625,28 +2625,47 @@
     }
 
     $('#calendar').on('change', function (event) {
-        var date = event.args.date;    
+        var date = event.args.date;
         var date2 = date.toLocaleString("es-ES").split(' ');
         var date3 = date2[0].split('/');
-        var date4 = date3[2]+"-"+date3[1]+"-"+date3[0];
-        
+        var date4 = date3[2] + "-" + date3[1] + "-" + date3[0];
+
         sendajaxCargarTabla(date4);
     });
-    
+
     function sendajaxCargarTabla(fecha) {
-        alert(fecha);
+        //alert(fecha);
         ruta = "../negocio/datos.php";
         funcion = "cargaTabla";
         data = "funcion=" + funcion + "&fecha=" + fecha;
-        var xhttp;     
+        var xhttp;
         xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 //alert(this.responseText);
-              
+                var table = document.getElementById("Tmain");
                 var myObj = JSON.parse(this.responseText);
                 console.log(myObj);
+                if (myObj != null)
+                {
+                    if (table != null) {
+                        for (i = 0; i < myObj.length; i++)
+                        {
+                            for (j = 1; j < table.rows.length; j++) {
 
+                                if (table.rows[j].cells[0].innerHTML == myObj[i]['hora'])
+                                {
+                                    table.rows[j].cells[1].innerHTML = myObj[i]['llegada'];
+                                    table.rows[j].cells[2].innerHTML = "" + myObj[i]['nombre'] + " " + myObj[i]['paterno'] + " " + myObj[i]['materno'];
+                                    table.rows[j].cells[3].innerHTML = myObj[i]['accion'];
+                                    table.rows[j].cells[4].innerHTML = myObj[i]['pago'];
+                                    table.rows[j].cells[6].innerHTML = myObj[i]['id_paciente'];
+                                }
+
+                            }
+                        }
+                    }
+                }
             }
         };
         xhttp.open("POST", ruta, true);
