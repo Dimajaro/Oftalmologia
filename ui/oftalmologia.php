@@ -1471,6 +1471,7 @@
                                             <i class="fas fa-times" style='font-size:18px'></i>
                                         </button>
                                     </td>
+                                    <td style="display: none"></td>
                                 </tr>
                                 <tr id="hora1700">
                                     <td style="width:79px">17:00</td>
@@ -2646,8 +2647,11 @@
                 var table = document.getElementById("Tmain");
                 var myObj = JSON.parse(this.responseText);
                 console.log(myObj);
+                limpiarTabla();
                 if (myObj != null)
                 {
+
+
                     if (table != null) {
                         for (i = 0; i < myObj.length; i++)
                         {
@@ -2692,5 +2696,26 @@
 //        xhttp.send(data); 
 //    }
 
+    function limpiarTabla()
+    {
+        var table = document.getElementById("Tmain");
+
+        if (table != null) {
+
+            for (j = 1; j < table.rows.length; j++) {
+
+                table.rows[j].style.backgroundColor = "transparent";
+
+                table.rows[j].cells[1].innerHTML = "";
+                table.rows[j].cells[2].innerHTML = "";
+                table.rows[j].cells[3].innerHTML = "";
+                table.rows[j].cells[4].innerHTML = "";
+                table.rows[j].cells[6].innerHTML = "";
+
+
+            }
+
+        }
+    }
 
 </script>

@@ -23,7 +23,8 @@ class MySQL
     //  mysql_select_db('hoysalud_bd', $this->conexion) or die(mysql_error());
         $this->conexion = (mysql_connect('192.168.10.97','Dhuanaco','JFV?3KcE')) or die(mysql_error());
         mysql_select_db('BD_Dhuanaco_Oftalmologia', $this->conexion) or die(mysql_error());      
-//        mysql_query ("SET NAMES 'utf8'");
+     
+        mysql_query ("SET NAMES 'utf8'");
       }
     }
         
