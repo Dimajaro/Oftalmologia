@@ -1,8 +1,7 @@
 <?php
 
 require_once("../conexion.php");
-$a = new atencion();
-$a->cargaTabla();
+
 
 class atencion {
     var $id_paciente;
@@ -78,19 +77,22 @@ class atencion {
        $this->database = $database;
    }
 
-   function cargaTabla(){
+   function cargaTabla($fecha){
     $my = new MySQL();
-  
-    $sql = $my->consulta("select * from atencion") ; 
+    
+    $sql = $my->consulta("select a.accion, a.hora, a.id_paciente, a.llegada, a.pago, p.nombre, p.paterno, p.materno from atencion as a join paciente as p "
+            . "on a.id_paciente = p.id where fecha = '$fecha'"); 
  
     $i=0;
     while($datos = $my->fetch_array($sql)){
-        $this->arrPacientes[$i]['id_paciente'] = $datos['id_paciente'];                      
-        $this->arrPacientes[$i]['hora'] = $datos['hora'];      
-        $this->arrPacientes[$i]['llegada'] = $datos['llegada'];      
-        $this->arrPacientes[$i]['pago'] = $datos['pago'];            
-        $this->arrPacientes[$i]['fecha'] = $datos['fecha'];   
-        $this->arrPacientes[$i]['accion'] = $datos['accion'];    
+        $this->arrPacientes[$i]['id_paciente'] = $datos['id_paciente'];
+        $this->arrPacientes[$i]['hora'] = $datos['hora'];
+        $this->arrPacientes[$i]['llegada'] = $datos['llegada'];
+        $this->arrPacientes[$i]['pago'] = $datos['pago'];    
+        $this->arrPacientes[$i]['accion'] = $datos['accion'];
+        $this->arrPacientes[$i]['nombre'] = $datos['nombre'];
+        $this->arrPacientes[$i]['paterno'] = $datos['paterno'];
+        $this->arrPacientes[$i]['materno'] = $datos['materno'];    
 
         $i++;
     }

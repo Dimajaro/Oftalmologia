@@ -468,8 +468,8 @@
                                     <center>
                                         <div id="calendar" style="">
                                         </div>
-                                        <div id="log">
-                                        </div>
+                                        <div id="log"></div>
+                                       
                                     </center>  
                                 </div>
                             </div>
@@ -1932,7 +1932,7 @@
 //       document.getElementById("myBtn").focus();
 //  }        
 //}
-
+     
     var idfila;
     var idfilaagregar;
     var filaParametros;
@@ -1949,6 +1949,17 @@
 //        e.stopPropagation()
 //  }
 //})
+
+
+
+//    $('#log').bind("DOMSubtreeModified",function(){
+//        alert('changed');
+//    });
+
+//$('#log').bind('DOMNodeInserted DOMNodeRemoved', function() {
+//alert("cambia");
+//});
+
     function RegistroPaciente(e) {
         if ($(collapseTwo).hasClass('show')) {
             //alert("hola");
@@ -1982,7 +1993,7 @@
         validarAv();
         cargarTabla();
         colorTabla();
-        sendajaxCargarTabla();
+        
 
     }
 
@@ -2063,8 +2074,6 @@
 
 
     }
-
-
 
     function data_ficha() {
         myObj = {
@@ -2615,11 +2624,20 @@
         xhttp.send(data);
     }
 
-
-    function sendajaxCargarTabla() {
+    $('#calendar').on('change', function (event) {
+        var date = event.args.date;    
+        var date2 = date.toLocaleString("es-ES").split(' ');
+        var date3 = date2[0].split('/');
+        var date4 = date3[2]+"-"+date3[1]+"-"+date3[0];
+        
+        sendajaxCargarTabla(date4);
+    });
+    
+    function sendajaxCargarTabla(fecha) {
+        alert(fecha);
         ruta = "../negocio/datos.php";
         funcion = "cargaTabla";
-        data = "funcion=" + funcion;
+        data = "funcion=" + funcion + "&fecha=" + fecha;
         var xhttp;     
         xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
