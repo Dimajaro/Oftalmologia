@@ -256,7 +256,7 @@
                                         </div>
                                         <p > - </p>
                                         <div class="col-3 col-sm-3 col-lg-3 ">
-                                            <input type="text-inline" id="txt_verificador" class="form-control" placeholder="9"   onblur="validarut()" pattern="\d|kK{1}" >  
+                                            <input type="text-inline" id="txt_verificador" class="form-control" placeholder="9"   onblur="validarut()"  >  
                                         </div>
                                     </div>
 
@@ -1992,7 +1992,7 @@
         mostraCheckbox();
         validarPio();
         validarAv();
-        //cargarTabla();
+        cargarTabla();
         colorTabla();       
      
 
@@ -2002,12 +2002,12 @@
     {
            $('#calendar').jqxCalendar('today');
     });
-//    function cargarTabla()
-//    {
-//
-//        var table = document.getElementById("Tmain");
-//        if (table != null) {
-//            for (var i = 1; i < table.rows.length; i++) {
+    function cargarTabla()
+    {
+
+        var table = document.getElementById("Tmain");
+        if (table != null) {
+            for (var i = 1; i < table.rows.length; i++) {
 //                for (var j = 0; j < prueba.length; j++) {
 //
 //                    if (table.rows[i].cells[0].innerHTML == prueba[j][0])
@@ -2020,15 +2020,14 @@
 //
 //
 //                }
-//
-//                table.rows[i].cells[2].onclick = function () {
-//                    idfilaagregar = this.parentNode.id;
-//                    $("#ModalBusqueda").modal();
-//
-//                }
-//            }
-//        }
-//    }
+                table.rows[i].cells[2].onclick = function () {
+                    idfilaagregar = this.parentNode.id;
+                    $("#ModalBusqueda").modal();
+
+                }
+            }
+        }
+    }
     function modalDoc()
     {
         $('#Mparametros').modal();
@@ -2464,7 +2463,7 @@
                 $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);
                 if (text == "p3") {
                     $("#" + idfila).children("td:nth-child(5)").text("Sin costo");
-                    $("#" + idfila).css("background-color", "#82e0aa");
+//                    $("#" + idfila).css("background-color", "#82e0aa");
                 }
 
 
@@ -2553,8 +2552,9 @@
     });
 
     function GuardarPaciente() {
-
-
+        ruta = "../negocio/datos.php";
+        funcion = "minInsertPaciente";
+        
         rut = $("#txt_rut").val();
         verificador = $("#txt_verificador").val();
         nombre = $("#txt_nombres").val();
@@ -2569,14 +2569,23 @@
 
 //        alert(fecha_nacimiento);
         //fecha_nacimiento="12-10-2012";
-        ruta = "../negocio/datos.php";
-
-        funcion = "minInsertPaciente";
-
-        data = "funcion=" + funcion + "&rut=" + rut + "&verificador=" + verificador + "&nombre=" + nombre + "&paterno=" + paterno + "&materno=" + materno +
+        alert(rut);
+        
+        if(rut != '' || verificador != '' || nombre != '' || paterno != '' || materno != ''|| fecha_nacimiento != '' ){
+            toastr.options.timeOut = 1500; // 1.5s
+            toastr.options.positionClass = 'toast-top-left';
+            toastr.error("Datos insuficientes!");
+        }else{
+            data = "funcion=" + funcion + "&rut=" + rut + "&verificador=" + verificador + "&nombre=" + nombre + "&paterno=" + paterno + "&materno=" + materno +
                 "&fecha_nacimiento=" + fecha_nacimiento + "&fijo=" + fijo + "&movil=" + movil + "&nacionalidad=" + nacionalidad + "&profesion=" + profesion;
 
-        sendajaxAgregarPaciente(ruta, data);
+            sendajaxAgregarPaciente(ruta, data);
+        } 
+
+
+
+
+        
 
 
     }
