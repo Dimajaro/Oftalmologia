@@ -32,7 +32,7 @@
         <link rel="stylesheet" href="css/style.css" >
         <script type="text/javascript" src="js/calendarspanish.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
-
+         <script type="text/javascript" src="js/registro.js"></script>
     </head>
 
     <!-- The Modal -->
@@ -187,7 +187,7 @@
                         </div>  
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-md-12"><div id="livesearch"></div></div>   </div>
+                        <div class="col-xs-12 col-md-12"><div id="livesearch" style="height: 300px;  overflow-y: scroll;"></div></div>   </div>
 
    <!-- <p id="demo"></p>-->
  <!--  <form> <input type="text" size="30" onkeyup="showResult(this.value)"> </form>-->
@@ -2571,15 +2571,16 @@
         //fecha_nacimiento="12-10-2012";
         alert(rut);
         
-        if(rut != '' || verificador != '' || nombre != '' || paterno != '' || materno != ''|| fecha_nacimiento != '' ){
+       if(rut.length == 0 ){//|| verificador != '' || nombre != ''){ // || paterno != '' || materno != ''  ){ //|| fecha_nacimiento != '' ){
             toastr.options.timeOut = 1500; // 1.5s
             toastr.options.positionClass = 'toast-top-left';
             toastr.error("Datos insuficientes!");
-        }else{
+        }else if(rut.length > 0 ){
             data = "funcion=" + funcion + "&rut=" + rut + "&verificador=" + verificador + "&nombre=" + nombre + "&paterno=" + paterno + "&materno=" + materno +
-                "&fecha_nacimiento=" + fecha_nacimiento + "&fijo=" + fijo + "&movil=" + movil + "&nacionalidad=" + nacionalidad + "&profesion=" + profesion;
-
-            sendajaxAgregarPaciente(ruta, data);
+              "&fecha_nacimiento=" + fecha_nacimiento + "&fijo=" + fijo + "&movil=" + movil + "&nacionalidad=" + nacionalidad + "&profesion=" + profesion;
+        // data = 'funcion=minInsertPaciente';
+          //  sendajaxAgregarPaciente(ruta, data);
+            sendajaxpass(marco, ruta,data);
         } 
 
 
