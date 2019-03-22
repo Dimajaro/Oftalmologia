@@ -4,18 +4,31 @@ require_once("../conexion.php");
 
 
 class paciente {
-    var $rut;
-    var $verificador;
+    var $id_paciente;
+    var $identificador;
     var $dverificador;
-    var $nombre;
-    var $paterno;
-    var $materno;
-    var $fecha_naciemiento;
-    var $fijo;
-    var $movil;
-    var $nacionalidad;
-    var $profesion;
-
+    var $tipoIdentificador;
+    var $nombrePaciente;
+    var $apellidoPpaciente;
+    var $apellidoMpaciente;
+    var $fechaNacimiento;
+    var $fonoPaciente;
+    var $fonoPaciente2;
+    var $emailPaciente;
+    var $direccionPaciente;
+    var $region_paciente;
+    var $ciudad_paciente;
+    var $sexo;
+    var $estadoCivil;
+    var $observacion_paciente;
+    var $observacion_rptpaciente;
+    var $estado_paciente;
+    var $cod_aseguradora;
+    var $arrPacientes;
+    var $arrobtPaciente;
+    var $id_asociado;
+    var $id_agenda;
+     
      var $database; //  ebc5c72026c6baf3c1efc5631139fdab    ++ Instance of class database
    
        function paciente()
@@ -87,7 +100,6 @@ class paciente {
    {
       $this->dverificador = $val;
    }
-    
 //1eliminapaciente()
 //2getpacientexrut/$identificador = $this->getidentificador()
 //3listcompraspacientexid/*
@@ -290,15 +302,16 @@ class paciente {
   function listarPacientesearch($search, $opc){
   $my = new MySQL();$search = $search.'%';
   if($opc == 1)
-       $sql = $my->consulta("select * from paciente where  nombre_paciente LIKE '$search' and  estado_paciente > 0 order by nombre_paciente, apellido_ppaciente,apellido_mpaciente asc") ; 
+       $sql = $my->consulta("select * from paciente where  nombre_paciente LIKE '$search'   order by nombre_paciente, apellido_ppaciente,apellido_mpaciente asc") ; 
   else  if($opc == 3)
-       $sql = $my->consulta("select * from paciente where  identificador LIKE '$search' and  estado_paciente > 0  order by apellido_ppaciente, nombre_paciente, apellido_mpaciente asc") ; 
+       $sql = $my->consulta("select * from paciente where  identificador LIKE '$search'    order by apellido_ppaciente, nombre_paciente, apellido_mpaciente asc") ; 
   else    
-       $sql = $my->consulta("select * from paciente where  apellido_ppaciente LIKE '$search' and  estado_paciente > 0  order by apellido_ppaciente, nombre_paciente, apellido_mpaciente asc") ; 
+       $sql = $my->consulta("select * from paciente where  apellido_ppaciente LIKE '$search'   order by apellido_ppaciente, nombre_paciente, apellido_mpaciente asc") ; 
   $i=0;
     while($datos = $my->fetch_array($sql)){
     $this->arrPacientes[$i]['id_paciente'] = $datos['id_paciente'];                      
-    $this->arrPacientes[$i]['identificador'] = $datos['identificador'];      
+    $this->arrPacientes[$i]['identificador'] = $datos['identificador'];   
+      $this->arrPacientes[$i]['dverificador'] = $datos['dverificador']; 
     $this->arrPacientes[$i]['tipo_identificador'] = $datos['tipo_identificador'];      
     $this->arrPacientes[$i]['nombre_paciente'] = $datos['nombre_paciente'];            
     $this->arrPacientes[$i]['apellido_ppaciente'] = $datos['apellido_ppaciente'];   
@@ -318,6 +331,9 @@ class paciente {
     $this->arrPacientes[$i]['ciudad_paciente'] = $datos['ciudad_paciente']; 
     $this->arrPacientes[$i]['observacion_rptpaciente'] = $datos['observacion_rptpaciente']; 
     $this->arrPacientes[$i]['id_asociado'] = $datos['id_asociado']; 
+    
+    $this->arrPacientes[$i]['nacionalidad'] = $datos['nacionalidad']; 
+    $this->arrPacientes[$i]['profesion'] = $datos['profesion']; 
     
     $i++;
     }
@@ -358,15 +374,17 @@ class paciente {
 function insertar($rut, $verificador ,   $nombre  ,  $paterno  ,
  $materno  ,   $fecha_nacimiento  ,  $fijo  ,   $movil ,   $nacionalidad   ,
  $profesion    ){
-    
-
-    $my = new MySQL();
-    $my->consulta("INSERT INTO   paciente  (   rut ,   verificador  ,   nombre  ,"
-    . "   paterno  ,   materno  ,   fecha_nacimiento  ,   fijo  ,   movil,"
-    . "   nacionalidad  ,   profesion  ) "
-    . "VALUES ('$rut' ,'$verificador'  ,   '$nombre'  ,  '$paterno'  ,"
-    . "  '$materno'  ,   '$fecha_nacimiento'  ,  '$fijo'  ,   '$movil'  ,"
-    . "   '$nacionalidad'  ,   '$profesion'  )");
+     //$result = $this->database->consulta("INSERT INTO   paciente  (   "
+   // . "rut, verificador, nombre, paterno, materno,  fecha_nacimiento, fijo,  movil, nacionalidad,   profesion  ) "
+  //  $my = new MySQL();
+   $result = $this->database->consulta("INSERT INTO   paciente( "
+ . "identificador, dverificador,nombre_paciente, apellido_ppaciente, apellido_mpaciente, "
+ . "fecha_nacimiento  ,fono_paciente  , fonoPaciente2,nacionalidad, profesion  ) "
+    . "VALUES "
+    . "('$rut' ,'$verificador', '$nombre',  '$paterno', '$materno', '$fecha_nacimiento', '$fijo',"
+    . " '$movil', '$nacionalidad', '$profesion'  )");
+  //  $this->setid_paciente(mysql_insert_id());
+ $this->id_paciente = mysql_insert_id();
 
 }
 
