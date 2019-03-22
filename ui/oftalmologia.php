@@ -23,7 +23,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
-        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <!--<<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
         <script type="text/javascript" src="https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"></script>
 
@@ -2554,7 +2554,7 @@
     function GuardarPaciente() {
         ruta = "../negocio/datos.php";
         funcion = "minInsertPaciente";
-        
+          marco = 'txt_edad';
         rut = $("#txt_rut").val();
         verificador = $("#txt_verificador").val();
         nombre = $("#txt_nombres").val();
