@@ -19,12 +19,13 @@ class MySQL
     public function MySQL(){
       if(!isset($this->conexion)){
           
-    //    $this->conexion = (mysql_connect('hoysalud.cl','hoysalud_us','@root123')) or die(mysql_error());
+    //  $this->conexion = (mysql_connect('hoysalud.cl','hoysalud_us','@root123')) or die(mysql_error());
     //  mysql_select_db('hoysalud_bd', $this->conexion) or die(mysql_error());
-      //  $this->conexion = (mysql_connect('localhost','root','root123')) or die(mysql_error());
-     //   mysql_select_db('BD_Dhuanaco_Oftalmologia', $this->conexion) or die(mysql_error());      
-       $this->conexion = (mysql_connect('hoysalud.cl','us_atencion','@root123')) or die(mysql_error());
-        mysql_select_db('atencion', $this->conexion) or die(mysql_error());      
+        $this->conexion = (mysql_connect('192.168.10.97','Dhuanaco','JFV?3KcE')) or die(mysql_error());
+        mysql_select_db('BD_Dhuanaco_Oftalmologia', $this->conexion) or die(mysql_error());   
+          
+//       $this->conexion = (mysql_connect('hoysalud.cl','us_atencion','@root123')) or die(mysql_error());
+//        mysql_select_db('atencion', $this->conexion) or die(mysql_error());      
      
         mysql_query ("SET NAMES 'utf8'");
       }

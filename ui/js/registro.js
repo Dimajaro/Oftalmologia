@@ -7,7 +7,6 @@
            // document.getElementById(marco).innerHTML = this.responseText;
               document.getElementById(marco).value= this.responseText;  
           //  alert(this.responseText);
-      
      }else 
          ;
      };

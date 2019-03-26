@@ -1,6 +1,6 @@
 <?php
 require_once('../clases/cls_paciente.php');
-//require_once('../clases/cls_atencion.php');
+require_once('../clases/cls_atencion.php');
 require_once('funciones_adicionales.php');
 //echo "datos.php"
 

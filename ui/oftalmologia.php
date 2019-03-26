@@ -1973,6 +1973,7 @@
 //        var valor = "#collapseThree";
 //        alert("1");
         //alert($(collapseThree).hasClass('show'));
+        limpiarReceta();    
         if ($(collapseThree).hasClass('show')) {
             //alert("hola");     
             e.stopPropagation();
@@ -2462,8 +2463,12 @@
                 text = this.id;
                 $("#" + idfila).children("td:nth-child(4)").text(this.innerHTML);
                 if (text == "p3") {
-                    $("#" + idfila).children("td:nth-child(5)").text("Sin costo");
-//                    $("#" + idfila).css("background-color", "#82e0aa");
+                    $("#" + idfila).children("td:nth-child(5)").text("Sin costo");       
+//                    alert($("#" + idfila).css("background-color"));
+                    if($("#" + idfila).css("background-color") == "rgba(0, 0, 0, 0)"){
+                        $("#" + idfila).css("background-color", "#5DADE2");
+                        //actulizar bd
+                    }
                 }
 
 
@@ -2569,7 +2574,7 @@
 
 //        alert(fecha_nacimiento);
         //fecha_nacimiento="12-10-2012";
-        alert(rut);
+//        alert(rut);
         
        if(rut.length == 0 ){//|| verificador != '' || nombre != ''){ // || paterno != '' || materno != ''  ){ //|| fecha_nacimiento != '' ){
             toastr.options.timeOut = 1500; // 1.5s
@@ -2593,6 +2598,10 @@
 
     function sendajaxAgregarPaciente(ruta, data) {
         var xhttp;
+        var horallegadaTabla;
+        var nombreTabla;
+        var idTabla;
+        var horainicioTabla;
         var hora = new Date();
         xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
@@ -2605,11 +2614,15 @@
 
                     if (idfilaagregar != null) {
                         if (confirm("¿Agregar hora a la tabla?")) {
-                            //alert("a tb");                      
-                            $("#" + idfilaagregar).children("td:nth-child(2)").text(hora.getHours() + ":" + hora.getMinutes());
-                            $("#" + idfilaagregar).children("td:nth-child(3)").text($('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val());
-                            $("#" + idfilaagregar).children("td:nth-child(7)").text(this.responseText);
-                            //alert($("#" + idfilaagregar).children("td:nth-child(7)").text());
+                            //alert("a tb");            
+                            horallegadaTabla = hora.getHours() + ":" + hora.getMinutes(); 
+                            nombreTabla = $('#txt_nombres').val() + " " + $('#txt_apellidop').val() + " " + $('#txt_apellidom').val();
+                            idTabla = this.responseText
+                            horainicioTabla = $("#" + idfilaagregar).children("td:nth-child(0)").text();
+                            alert(horainicioTabla);
+                            $("#" + idfilaagregar).children("td:nth-child(2)").text(horallegadaTabla);
+                            $("#" + idfilaagregar).children("td:nth-child(3)").text(nombreTabla);
+                            $("#" + idfilaagregar).children("td:nth-child(7)").text(idTabla);                           
 
                         }
                         idfilaagregar = null;
@@ -2625,17 +2638,22 @@
                     $('#txt_movil').val("");
                     $('#txt_nacionalidad').val("");
                     $('#txt_profesion').val("");
-                } else {
+                                    
+                    sendajaxguardaratencion(horallegadaTabla, nombreTabla, idTabla, 0);
+                }else{
                     toastr.options.timeOut = 1500; // 1.5s
                     toastr.options.positionClass = 'toast-top-left';
                     toastr.error("No se pudo registrar paciente");
                 }
-
             }
         };
         xhttp.open("POST", ruta, true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhttp.send(data);
+    }
+    
+    sendajaxguardaratencion(hora, nombre, id, estado){
+        
     }
 
     $('#calendar').on('change', function (event) {
@@ -2684,8 +2702,7 @@
                                         table.rows[j].style.backgroundColor = " transparent";
                                     if(myObj[i]['estado'] == 1)
                                         table.rows[j].style.backgroundColor = "#5DADE2";//azul
-                                    if(myObj[i]['estado'] == 2)
-                                        
+                                    if(myObj[i]['estado'] == 2)                                        
                                         table.rows[j].style.backgroundColor = "#82e0aa";//verde
                                     if(myObj[i]['estado'] == 3)
                                         table.rows[j].style.backgroundColor = "#DC7633";//cafe
@@ -2741,6 +2758,82 @@
             }
 
         }
+    }
+    
+    function limpiarReceta()
+    {
+        $("#reEsfOD").val("");
+        $("#reEsfOI").val("");
+        $("#reCilOD").val("");
+        $("#reCilOI").val("");
+        $("#reEjeOD").val("");
+        $("#reEjeOI").val("");
+
+        $("#avEsfOD").val("");
+        $("#avEsfOI").val("");
+        $("#avCilOD").val("");
+        $("#avCilOI").val("");
+
+        $("#toPioOD").val("");
+        $("#toPioOI").val("");
+
+        $("#leEsfOD").val("");
+        $("#leEsfOI").val("");
+        $("#leCilOD").val("");
+        $("#leCilOI").val("");
+        $("#leEjeOD").val("");
+        $("#leEjeOI").val("");
+
+        $("#rlEsfOD").val("");
+        $("#rlEsfOI").val("");
+        $("#rlCilOD").val("");
+        $("#rlCilOI").val("");
+        $("#rlEjeOD").val("");
+        $("#rlEjeOI").val("");
+        $("#rlAvOD").val("");
+        $("#rlAvOI").val("");
+        $("#rlDp").val("");
+
+        $("#rcAdOD").val("");
+        $("#rcAdOI").val("");
+        $("#rcEsfOD").val("");
+        $("#rcEsfOI").val("");
+        $("#rcCilOD").val("");
+        $("#rcCilOI").val("");
+        $("#rcEjeOD").val("");
+        $("#rcEjeOI").val("");
+        $("#rcJOD").val("");
+        $("#rcJOI").val("");
+        $("#rcDp").val("");
+
+        $("#chkOrg").prop('checked',false);
+        $("#chkVid").prop('checked',false);
+        $("#chkPoli").prop('checked',false);
+        $("#chkUv").prop('checked',false);
+        $("#chkRefle").prop('checked',false);
+        $("#chkFoto").prop('checked',false);
+        $("#chkPola").prop('checked',false);
+        $("#chkRoad").prop('checked',false);
+        $("#chkFil").prop('checked',false);
+        $("#chkRaya").prop('checked',false);
+        $("#chkRefle").prop('checked',false);
+        $("#chkLent").prop('checked',false);
+        $("#chkBifo").prop('checked',false);
+        $("#chkMult").prop('checked',false);
+        $("#chkIndi").prop('checked',false);
+
+        $("#chkBlan").prop('checked',false);
+        $("#chkTori").prop('checked',false);
+        $("#chkDese").prop('checked',false);
+        $("#chkPro").prop('checked',false);
+        $("#chkMulti").prop('checked',false);
+
+        $("#rdoOptico").prop('checked',true);
+        $("#rdoContacto").prop('checked',false);
+
+        $("#rlChk").prop('checked',false);
+        $("#rcChk").prop('checked',false);
+        mostraCheckbox();
     }
 
 </script>

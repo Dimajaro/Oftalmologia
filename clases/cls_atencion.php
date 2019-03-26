@@ -80,8 +80,8 @@ class atencion {
    function cargaTabla($fecha){
     $my = new MySQL();
     
-    $sql = $my->consulta("select a.accion, a.hora, a.id_paciente, a.llegada, a.pago, a.estado, p.nombre, p.paterno, p.materno from atencion as a join paciente as p "
-            . "on a.id_paciente = p.id where fecha = '$fecha'"); 
+    $sql = $my->consulta("select a.accion, a.hora, a.id_paciente, a.llegada, a.pago, a.estado, p.nombre_paciente, p.apellido_ppaciente, p.apellido_mpaciente from atencion as a join paciente as p "
+            . "on a.id_paciente = p.id_paciente where a.fecha = '$fecha'"); 
  
     $i=0;
     while($datos = $my->fetch_array($sql)){
@@ -90,9 +90,9 @@ class atencion {
         $this->arrPacientes[$i]['llegada'] = $datos['llegada'];
         $this->arrPacientes[$i]['pago'] = $datos['pago'];    
         $this->arrPacientes[$i]['accion'] = $datos['accion'];
-        $this->arrPacientes[$i]['nombre'] = $datos['nombre'];
-        $this->arrPacientes[$i]['paterno'] = $datos['paterno'];
-        $this->arrPacientes[$i]['materno'] = $datos['materno'];   
+        $this->arrPacientes[$i]['nombre'] = $datos['nombre_paciente'];
+        $this->arrPacientes[$i]['paterno'] = $datos['apellido_ppaciente'];
+        $this->arrPacientes[$i]['materno'] = $datos['apellido_mpaciente'];   
         $this->arrPacientes[$i]['estado'] = $datos['estado'];  
 
         $i++;
