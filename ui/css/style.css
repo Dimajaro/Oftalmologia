@@ -33,11 +33,24 @@
 .minpaddingizquierdo{
     padding-left: 10px !important;
 }
+.minpaddingderecho{
+    padding-right: 10px !important;
+}
 .sinmargen{
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
-
+.styleBtn{
+    margin-top: 10px !important;
+}
 .conmargen{
     margin-bottom: 10px !important;
+}
+.sinmargeninferior
+{
+    margin-bottom: 0px !important;
+}
+
+.fila{
+     margin-bottom: 20px !important;
 }
